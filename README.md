@@ -16,7 +16,7 @@ graph LR
     JSON
     end
     
-    subgraph "Production-Grade AI Application"
+    subgraph "Production Application"
     Result
     end
 ```
