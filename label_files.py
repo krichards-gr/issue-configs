@@ -1,7 +1,12 @@
 import os
-import pandas as pd
 import argparse
 from datetime import datetime
+from setup_utils import ensure_setup
+
+# Ensure environment is ready before importing heavy dependencies
+ensure_setup()
+
+import pandas as pd
 from analyzer import IssueAnalyzer
 
 def main():

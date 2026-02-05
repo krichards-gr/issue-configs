@@ -1,3 +1,6 @@
+from setup_utils import ensure_setup
+ensure_setup()
+
 from analyzer import IssueAnalyzer
 
 """

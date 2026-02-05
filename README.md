@@ -37,34 +37,25 @@ graph LR
 
 ## 🚀 Getting Started
 
-### 1. Installation
-Install the dependencies:
-```bash
-pip install -r requirements.txt
-```
+The local tools are now **self-healing**. Simply running a command will automatically check for and install missing dependencies or AI models.
 
-### 2. Download Models
-Ensure your environment has the necessary AI models:
-```bash
-python download_models.py
-```
-
-### 3. Generate your Configuration
-Transform your raw definitions into machine-readable JSON:
-```bash
-python generate_topics.py
-```
-
-### 4. Label your local files (CLI)
-Use the interactive tool to process custom datasets:
+### 1. Label your local files (CLI)
+You can process any data file immediately:
 ```bash
 python label_files.py my_data.csv
 ```
+*(On the first run, it will automatically download the 80MB+ AI model and install dependencies.)*
 
-### 5. Run the Analysis Demo
+### 2. Run the Analysis Demo
 Test the core logic against sample strings:
 ```bash
 python local_analysis.py
+```
+
+### 3. Generate your Configuration (Manual)
+If you update `issue_config_inputs_raw.csv`, regenerate the config:
+```bash
+python generate_topics.py
 ```
 
 ## 🛠️ Data Structure & Logic
