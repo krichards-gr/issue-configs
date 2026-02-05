@@ -29,10 +29,9 @@ graph LR
 - **`generate_topics.py`**: A two-step generator that:
     1. Transforms raw inputs into an intermediate long-format CSV.
     2. Converts the intermediate CSV into the final `topics.json` configuration.
-- **`local_analysis.py`**: A high-fidelity demonstration script. It uses the exact same matching logic as the production pipeline:
-    - **spaCy Matcher**: For precise keyword/pattern matching.
-    - **SentenceTransformers**: For semantic similarity matching of anchor terms.
-    - **Negative Filtering**: For applying exclusionary terms.
+- **`label_files.py`**: **NEW Interactive CLI Tool**. Point it at any CSV or XLSX file, pick a column, and it will apply the detection logic and save a labeled version to the `outputs` folder.
+- **`analyzer.py`**: A modular class housing the core detection logic. Used by all analysis scripts.
+- **`local_analysis.py`**: A demonstration script that verifies the `analyzer.py` logic against hardcoded sample texts.
 - **`download_models.py`**: Utility to ensure all required NLP models are downloaded and ready for use.
 - **`test_local_pipeline.py`**: A wrapper to verify the entire pipeline from generation to analysis.
 
@@ -56,8 +55,14 @@ Transform your raw definitions into machine-readable JSON:
 python generate_topics.py
 ```
 
-### 4. Run the Analysis Demo
-Test your configuration using the local analysis script:
+### 4. Label your local files (CLI)
+Use the interactive tool to process custom datasets:
+```bash
+python label_files.py my_data.csv
+```
+
+### 5. Run the Analysis Demo
+Test the core logic against sample strings:
 ```bash
 python local_analysis.py
 ```

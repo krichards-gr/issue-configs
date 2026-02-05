@@ -3,3 +3,4 @@ spacy
 sentence-transformers
 torch
 transformers
+openpyxl

@@ -17,6 +17,7 @@ import logging
 import torch
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from generate_topics import generate_topics_json
+from analyzer import IssueAnalyzer
 
 
 # Configure logging
@@ -116,6 +117,14 @@ ROLE_ID_MAP = {
     "LABEL_3": "Operator"
 }
 
+# Initialize the modular analyzer for topic detection
+# This ensures local CLI and Cloud Run use the exact same logic
+# We pass the local EMBEDDING_MODEL_PATH for Cloud Run optimization
+issue_analyzer = IssueAnalyzer(
+    similarity_threshold=SIMILARITY_THRESHOLD,
+    embedding_model=EMBEDDING_MODEL_PATH
+)
+
 # BigQuery Configuration
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", 500))
 # Default to production-like behavior unless explicitly told otherwise in env
@@ -137,7 +146,10 @@ else:
 # =================================================================================================
 
 print("Loading models...")
-nlp = spacy.load("en_core_web_sm")
+
+# Shared NLP and Embedding models are handled by the IssueAnalyzer
+nlp = issue_analyzer.nlp
+embedder = issue_analyzer.embedder
 
 def load_model_safely(model_path, model_type="embedding"):
     if not os.path.exists(model_path):
@@ -156,53 +168,19 @@ def load_model_safely(model_path, model_type="embedding"):
         sys.exit(1)
 
 # Load all models strictly from local paths
-embedder = load_model_safely(EMBEDDING_MODEL_PATH, "embedding")
 sentiment_analyzer = load_model_safely(SENTIMENT_MODEL_PATH, "sentiment")
 interaction_classifier = load_model_safely(INTERACTION_MODEL_PATH, "interaction")
 role_classifier = load_model_safely(ROLE_MODEL_PATH, "role")
 
 print("Models loaded successfully.")
 
-# =================================================================================================
-# DATA LOADING & UTILITIES
-# =================================================================================================
-
-def load_topics(filepath):
-    if not os.path.exists(filepath):
-        print(f"Error: Topics file not found at {filepath}")
-        return []
-    with open(filepath, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data.get('topics', [])
-
-topics_data = load_topics(TOPICS_FILE)
-# Create a map for quick exclusion lookups
-# Create a map for quick exclusion lookups
-EXCLUSIONS_MAP = {t['label']: t.get('exclusions', []) for t in topics_data}
-# Create a map for issue area lookups
-ISSUE_AREA_MAP = {t['label']: t.get('issue_area', 'Unknown') for t in topics_data}
-
-# Prepare spaCy Matcher
-from spacy.matcher import Matcher
-matcher = Matcher(nlp.vocab)
-for topic in topics_data:
-    label = topic['label']
-    patterns = topic.get('patterns', [])
-    if patterns:
-        matcher.add(label, patterns)
-
-# Pre-compute embeddings for all anchor terms
-all_anchors_text = []
-anchor_metadata = [] 
-for topic in topics_data:
-    for anchor in topic.get('anchors', []):
-        all_anchors_text.append(anchor)
-        anchor_metadata.append((topic['label'], anchor))
-
-if all_anchors_text:
-    anchor_embeddings = embedder.encode(all_anchors_text, convert_to_tensor=True)
-else:
-    anchor_embeddings = None
+# Topics logic is now handled by issue_analyzer
+# Pre-computed embeddings and matcher are internal to the class
+anchor_embeddings = issue_analyzer.anchor_embeddings
+anchor_metadata = issue_analyzer.anchor_metadata
+matcher = issue_analyzer.matcher
+EXCLUSIONS_MAP = issue_analyzer.exclusions_map
+ISSUE_AREA_MAP = issue_analyzer.issue_area_map
 
 def rejoin_fragments(df):
     """Rejoins segments split by line breaks."""
