@@ -1,0 +1,41 @@
+steps:
+  # Step 0: Download models from GCS to the local workspace
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'bash'
+    args: 
+      - '-c'
+      - |
+        mkdir -p models
+        gsutil -m cp -r gs://earnings-analysis-models/models/* ./models/
+        echo "Check models directory structure:"
+        ls -R models
+
+  # Step 1: Build the Docker image
+  # The Dockerfile 'COPY . /app' will now include the ./models/ folder we just downloaded
+  # Changed image name to universal-issue-configs
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/universal-issue-configs', '.']
+
+  # Step 2: Push the image to GCR
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/universal-issue-configs']
+
+  # Step 3: Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'universal-issue-configs'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/universal-issue-configs'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+
+images:
+  - 'gcr.io/$PROJECT_ID/universal-issue-configs'
+
+options:
+  logging: CLOUD_LOGGING_ONLY

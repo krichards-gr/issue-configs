@@ -1,52 +1,460 @@
-topic,term,type
-Climate Change,anti-esg,pattern
-Climate Change,antiesg,pattern
-Climate Change,cap and trade,pattern
-Climate Change,cap-and-trade,pattern
-Climate Change,carbon credits,pattern
-Climate Change,carbon offset,pattern
-Climate Change,carbon offsets,pattern
-Climate Change,clean energy,pattern
-Climate Change,the health of the planet's climate is essential to human life,anchor term
-Climate Change,climate disclosure,pattern
-Climate Change,climate justice,pattern
-Climate Change,our communities rely on us to protect the planet,anchor term
-Climate Change,corporate responsibility,anchor term
-Climate Change,CSD3,pattern
-Climate Change,CSDDD,pattern
-Climate Change,deforestation,pattern
-Climate Change,divestment,pattern
-Climate Change,emissions disclosure,pattern
-Climate Change,endangerment finding,pattern
-Climate Change,environmental pollution,pattern
-Climate Change,ESG,pattern
-Climate Change,EtO,pattern
-Climate Change,EUDR,pattern
-Climate Change,fiduciary duty,pattern
-Climate Change,fossil fuel financing,pattern
-Climate Change,fossil fuels,pattern
-Climate Change,green bonds,pattern
-Climate Change,Nationally Determined Contributions,anchor term
-Climate Change,natural disaster,pattern
-Climate Change,natural disasters,pattern
-Climate Change,NDCs,pattern
-Climate Change,net zero,pattern
-Climate Change,Petersberg Climate Dialogue,pattern
-Climate Change,PFAS,pattern
-Climate Change,plastic,pattern
-Climate Change,plastic pollution,anchor term
-Climate Change,plastic recycling,pattern
-Climate Change,plastic supply chain,pattern
-Climate Change,plastic waste,pattern
-Climate Change,plasticulture,pattern
-Climate Change,regenerative agriculture,pattern
-Climate Change,RimbaRaya,pattern
-Climate Change,SB 253,pattern
-Climate Change,SB 261,pattern
-Climate Change,SBTi,pattern
-Climate Change,science based targets,anchor term
-Climate Change,super fund law,pattern
-Climate Change,sustainable agriculture,anchor term
-Climate Change,water stewardship,pattern
-Climate Change,financial results,exclusionary term
-Climate Change,plastic surgery,exclusionary term
+issue_area,issue_subtopic,topic,term,type
+AI & Technology,AI & Technology,AI & Technology,ai,pattern
+AI & Technology,AI & Technology,AI & Technology,artificial intelligence,pattern
+AI & Technology,AI & Technology,AI & Technology,generative ai,pattern
+AI & Technology,AI & Technology,AI & Technology,AI,anchor term
+AI & Technology,AI & Technology,AI & Technology,artificial intelligence,anchor term
+AI & Technology,AI & Technology,AI & Technology,Generative AI,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,animal equality,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,animal testing,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,animal vaccines,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,better chicken commitment,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,cage-free hens,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,crate-free pork,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,frankenchicken,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,gestation crates,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,no antibiotics ever,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,pork housing,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,sow housing,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,us livestock policy,pattern
+Animal Welfare,Animal Welfare,Animal Welfare,Animal Equality,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Animal testing,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,animal vaccines,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Better Chicken Commitment,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Cage-free hens,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Crate-free pork,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Frankenchicken,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Gestation crates,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,No Antibiotics Ever,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,Pork housing,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,sow housing,anchor term
+Animal Welfare,Animal Welfare,Animal Welfare,US Livestock policy,anchor term
+Climate Change,Climate Change,Climate Change,anti-esg,pattern
+Climate Change,Climate Change,Climate Change,antiesg,pattern
+Climate Change,Climate Change,Climate Change,cap and trade,pattern
+Climate Change,Climate Change,Climate Change,cap-and-trade,pattern
+Climate Change,Climate Change,Climate Change,carbon credits,pattern
+Climate Change,Climate Change,Climate Change,carbon offset,pattern
+Climate Change,Climate Change,Climate Change,carbon offsets,pattern
+Climate Change,Climate Change,Climate Change,clean energy,pattern
+Climate Change,Climate Change,Climate Change,climate disclosure,pattern
+Climate Change,Climate Change,Climate Change,climate justice,pattern
+Climate Change,Climate Change,Climate Change,CSD3,pattern
+Climate Change,Climate Change,Climate Change,CSDDD,pattern
+Climate Change,Climate Change,Climate Change,deforestation,pattern
+Climate Change,Climate Change,Climate Change,divestment,pattern
+Climate Change,Climate Change,Climate Change,emissions disclosure,pattern
+Climate Change,Climate Change,Climate Change,endangerment finding,pattern
+Climate Change,Climate Change,Climate Change,environmental pollution,pattern
+Climate Change,Climate Change,Climate Change,ESG,pattern
+Climate Change,Climate Change,Climate Change,EtO,pattern
+Climate Change,Climate Change,Climate Change,EUDR,pattern
+Climate Change,Climate Change,Climate Change,fiduciary duty,pattern
+Climate Change,Climate Change,Climate Change,fossil fuel financing,pattern
+Climate Change,Climate Change,Climate Change,fossil fuels,pattern
+Climate Change,Climate Change,Climate Change,green bonds,pattern
+Climate Change,Climate Change,Climate Change,natural disaster,pattern
+Climate Change,Climate Change,Climate Change,natural disasters,pattern
+Climate Change,Climate Change,Climate Change,NDCs,pattern
+Climate Change,Climate Change,Climate Change,net zero,pattern
+Climate Change,Climate Change,Climate Change,Petersberg Climate Dialogue,pattern
+Climate Change,Climate Change,Climate Change,PFAS,pattern
+Climate Change,Climate Change,Climate Change,plastic,pattern
+Climate Change,Climate Change,Climate Change,plastic recycling,pattern
+Climate Change,Climate Change,Climate Change,plastic supply chain,pattern
+Climate Change,Climate Change,Climate Change,plastic waste,pattern
+Climate Change,Climate Change,Climate Change,plasticulture,pattern
+Climate Change,Climate Change,Climate Change,regenerative agriculture,pattern
+Climate Change,Climate Change,Climate Change,RimbaRaya,pattern
+Climate Change,Climate Change,Climate Change,SB 253,pattern
+Climate Change,Climate Change,Climate Change,SB 261,pattern
+Climate Change,Climate Change,Climate Change,SBTi,pattern
+Climate Change,Climate Change,Climate Change,super fund law,pattern
+Climate Change,Climate Change,Climate Change,water stewardship,pattern
+Climate Change,Climate Change,Climate Change,financial results,exclusionary term
+Climate Change,Climate Change,Climate Change,plastic surgery,exclusionary term
+Climate Change,Climate Change,Climate Change,the health of the planet's climate is essential to human life,anchor term
+Climate Change,Climate Change,Climate Change,our communities rely on us to protect the planet,anchor term
+Climate Change,Climate Change,Climate Change,corporate responsibility,anchor term
+Climate Change,Climate Change,Climate Change,Nationally Determined Contributions,anchor term
+Climate Change,Climate Change,Climate Change,plastic pollution,anchor term
+Climate Change,Climate Change,Climate Change,science based targets,anchor term
+Climate Change,Climate Change,Climate Change,sustainable agriculture,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,american red cross,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodegradable plastics,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodiversity,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon footprint,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon reduction,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon sequestration,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,circular economy,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,clean energy,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate resiliance,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,community resilience,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,conservation,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,deforestation prevention,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster donations,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster preparedness,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster recover,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster relief,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,divestment,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,earthquake,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,eco-friendly plastics,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency assistance,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency relief,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emissions,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,fema,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,forest,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,fossil fuel,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,hurricane,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,natural disaster,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,nature positive,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,net-zero,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,ocean cleanup,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,paris agreement,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,plastic waste,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,pollution,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,recycling,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,regenerative agriculture,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,renewable energy,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 1,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 2,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 3,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable agriculture,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable finance,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable packaging,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable sourcing,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,tornado,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,wildfire,pattern
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,American Red Cross,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodegradable plastics,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodiversity,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon footprint,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon reduction,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon sequestration,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,circular economy,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,clean energy,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate resiliance,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Community Resilience,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,conservation,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,deforestation prevention,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster donations,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Disaster Preparedness,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster recover,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Disaster relief,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,divestment,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,earthquake,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,eco-friendly plastics,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Emergency Assistance,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Emergency Relief,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emissions,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,FEMA,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,forest,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,fossil fuel,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,hurricane,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,natural disaster,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,nature positive,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,net-zero,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,ocean cleanup,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Paris Agreement,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,plastic waste,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,pollution,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,recycling,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,regenerative agriculture,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,renewable energy,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 1,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 2,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 3,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable agriculture,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable finance,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable packaging,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable sourcing,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,tornado,anchor term
+Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,wildfire,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,law enforcement,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,orc,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,organized retail crime,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,police,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,public safety,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,retail theft,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,safety,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,shoplifting,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,shrink,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,theft,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,worker safety,pattern
+Crime & Safety,Crime & Safety,Crime & Safety,law enforcement,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,ORC,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,organized retail crime,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,police,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,public safety,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,retail theft,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,safety,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,shoplifting,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,shrink,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,theft,anchor term
+Crime & Safety,Crime & Safety,Crime & Safety,worker safety,anchor term
+Disability Rights,Disability Rights,Disability Rights,accessibility,pattern
+Disability Rights,Disability Rights,Disability Rights,accessible,pattern
+Disability Rights,Disability Rights,Disability Rights,ada,pattern
+Disability Rights,Disability Rights,Disability Rights,americans with disabilities act,pattern
+Disability Rights,Disability Rights,Disability Rights,disability,pattern
+Disability Rights,Disability Rights,Disability Rights,neurodiversity,pattern
+Disability Rights,Disability Rights,Disability Rights,physical disability,pattern
+Disability Rights,Disability Rights,Disability Rights,sensory friendly,pattern
+Disability Rights,Disability Rights,Disability Rights,accessibility,anchor term
+Disability Rights,Disability Rights,Disability Rights,accessible,anchor term
+Disability Rights,Disability Rights,Disability Rights,ADA,anchor term
+Disability Rights,Disability Rights,Disability Rights,Americans with Disabilities Act,anchor term
+Disability Rights,Disability Rights,Disability Rights,disability,anchor term
+Disability Rights,Disability Rights,Disability Rights,neurodiversity,anchor term
+Disability Rights,Disability Rights,Disability Rights,physical disability,anchor term
+Disability Rights,Disability Rights,Disability Rights,sensory friendly,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,drug affordability,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,drug costs,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,drug pricing,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,insulin costs,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,medication costs,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,medication pricing,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical costs,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical pricing,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,prescription drugs,pattern
+Drug Pricing,Drug Pricing,Drug Pricing,drug affordability,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,drug costs,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,drug pricing,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,insulin costs,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,medication costs,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,medication pricing,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical costs,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical pricing,anchor term
+Drug Pricing,Drug Pricing,Drug Pricing,prescription drugs,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,affordable housing,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,broadband access,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,child tax credit,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,childcare access,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,cost of living,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,economic opportunity,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,education access,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,financial literacy,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,inflation,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,internet access,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,minimum wage,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,small business support,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,student debt,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,student loans,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,wealth gap,pattern
+Economic Empowerment,Economic Empowerment,Economic Empowerment,affordable housing,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,broadband access,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,child tax credit,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,childcare access,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,cost of living,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,economic opportunity,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,education access,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,financial literacy,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,inflation,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,internet access,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,minimum wage,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,small business support,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,student debt,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,student loans,anchor term
+Economic Empowerment,Economic Empowerment,Economic Empowerment,wealth gap,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,ballot access,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,campaign finance,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,election integrity,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,election security,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,gerrymandering,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,voter access,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,voter registration,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,voter rights,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,voter suppression,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,voting rights,pattern
+Elections & Administration,Elections & Administration,Elections & Administration,ballot access,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,campaign finance,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,election integrity,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,election security,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,gerrymandering,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,voter access,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,voter registration,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,voter rights,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,voter suppression,anchor term
+Elections & Administration,Elections & Administration,Elections & Administration,voting rights,anchor term
+Gender Equity,Gender Equity,Gender Equity,equal pay,pattern
+Gender Equity,Gender Equity,Gender Equity,gender equality,pattern
+Gender Equity,Gender Equity,Gender Equity,gender equity,pattern
+Gender Equity,Gender Equity,Gender Equity,gender gap,pattern
+Gender Equity,Gender Equity,Gender Equity,gender pay gap,pattern
+Gender Equity,Gender Equity,Gender Equity,maternal health,pattern
+Gender Equity,Gender Equity,Gender Equity,maternity leave,pattern
+Gender Equity,Gender Equity,Gender Equity,paid leave,pattern
+Gender Equity,Gender Equity,Gender Equity,parental leave,pattern
+Gender Equity,Gender Equity,Gender Equity,women's empowerment,pattern
+Gender Equity,Gender Equity,Gender Equity,women's rights,pattern
+Gender Equity,Gender Equity,Gender Equity,equal pay,anchor term
+Gender Equity,Gender Equity,Gender Equity,gender equality,anchor term
+Gender Equity,Gender Equity,Gender Equity,gender equity,anchor term
+Gender Equity,Gender Equity,Gender Equity,gender gap,anchor term
+Gender Equity,Gender Equity,Gender Equity,gender pay gap,anchor term
+Gender Equity,Gender Equity,Gender Equity,maternal health,anchor term
+Gender Equity,Gender Equity,Gender Equity,maternity leave,anchor term
+Gender Equity,Gender Equity,Gender Equity,paid leave,anchor term
+Gender Equity,Gender Equity,Gender Equity,parental leave,anchor term
+Gender Equity,Gender Equity,Gender Equity,women's empowerment,anchor term
+Gender Equity,Gender Equity,Gender Equity,women's rights,anchor term
+Health Access,Health Access,Health Access,health equity,pattern
+Health Access,Health Access,Health Access,healthcare access,pattern
+Health Access,Health Access,Health Access,healthcare affordability,pattern
+Health Access,Health Access,Health Access,insurance coverage,pattern
+Health Access,Health Access,Health Access,medicaid,pattern
+Health Access,Health Access,Health Access,medicare,pattern
+Health Access,Health Access,Health Access,mental health access,pattern
+Health Access,Health Access,Health Access,public health,pattern
+Health Access,Health Access,Health Access,rural healthcare,pattern
+Health Access,Health Access,Health Access,telehealth,pattern
+Health Access,Health Access,Health Access,health equity,anchor term
+Health Access,Health Access,Health Access,healthcare access,anchor term
+Health Access,Health Access,Health Access,healthcare affordability,anchor term
+Health Access,Health Access,Health Access,insurance coverage,anchor term
+Health Access,Health Access,Health Access,medicaid,anchor term
+Health Access,Health Access,Health Access,medicare,anchor term
+Health Access,Health Access,Health Access,mental health access,anchor term
+Health Access,Health Access,Health Access,public health,anchor term
+Health Access,Health Access,Health Access,rural healthcare,anchor term
+Health Access,Health Access,Health Access,telehealth,anchor term
+Immigration,Immigration,Immigration,asylum,pattern
+Immigration,Immigration,Immigration,border security,pattern
+Immigration,Immigration,Immigration,daca,pattern
+Immigration,Immigration,Immigration,dreamers,pattern
+Immigration,Immigration,Immigration,immigration reform,pattern
+Immigration,Immigration,Immigration,migrant rights,pattern
+Immigration,Immigration,Immigration,pathway to citizenship,pattern
+Immigration,Immigration,Immigration,refugees,pattern
+Immigration,Immigration,Immigration,asylum,anchor term
+Immigration,Immigration,Immigration,border security,anchor term
+Immigration,Immigration,Immigration,DACA,anchor term
+Immigration,Immigration,Immigration,dreamers,anchor term
+Immigration,Immigration,Immigration,immigration reform,anchor term
+Immigration,Immigration,Immigration,migrant rights,anchor term
+Immigration,Immigration,Immigration,pathway to citizenship,anchor term
+Immigration,Immigration,Immigration,refugees,anchor term
+International Reputational Risks,International Reputational Risks,International Reputational Risks,global human rights,pattern
+International Reputational Risks,International Reputational Risks,International Reputational Risks,international labor standards,pattern
+International Reputational Risks,International Reputational Risks,International Reputational Risks,supply chain ethics,pattern
+International Reputational Risks,International Reputational Risks,International Reputational Risks,trade compliance,pattern
+International Reputational Risks,International Reputational Risks,International Reputational Risks,global human rights,anchor term
+International Reputational Risks,International Reputational Risks,International Reputational Risks,international labor standards,anchor term
+International Reputational Risks,International Reputational Risks,International Reputational Risks,supply chain ethics,anchor term
+International Reputational Risks,International Reputational Risks,International Reputational Risks,trade compliance,anchor term
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,equality act,pattern
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,gender affirming care,pattern
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,lgbtq+ rights,pattern
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,pride,pattern
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,same-sex marriage,pattern
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,transgender rights,pattern
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,Equality Act,anchor term
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,gender affirming care,anchor term
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ rights,anchor term
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,pride,anchor term
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,same-sex marriage,anchor term
+LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,transgender rights,anchor term
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food deserts,pattern
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food insecurity,pattern
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,hunger relief,pattern
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,nutrition assistance,pattern
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,snap,pattern
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,wic,pattern
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food deserts,anchor term
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food insecurity,anchor term
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,hunger relief,anchor term
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,nutrition assistance,anchor term
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,SNAP,anchor term
+Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,WIC,anchor term
+Racial Equity,Racial Equity,Racial Equity,anti-racism,pattern
+Racial Equity,Racial Equity,Racial Equity,civil rights,pattern
+Racial Equity,Racial Equity,Racial Equity,dei,pattern
+Racial Equity,Racial Equity,Racial Equity,diversity,pattern
+Racial Equity,Racial Equity,Racial Equity,inclusion,pattern
+Racial Equity,Racial Equity,Racial Equity,racial justice,pattern
+Racial Equity,Racial Equity,Racial Equity,systemic racism,pattern
+Racial Equity,Racial Equity,Racial Equity,anti-racism,anchor term
+Racial Equity,Racial Equity,Racial Equity,civil rights,anchor term
+Racial Equity,Racial Equity,Racial Equity,DEI,anchor term
+Racial Equity,Racial Equity,Racial Equity,diversity,anchor term
+Racial Equity,Racial Equity,Racial Equity,inclusion,anchor term
+Racial Equity,Racial Equity,Racial Equity,racial justice,anchor term
+Racial Equity,Racial Equity,Racial Equity,systemic racism,anchor term
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,bipartisanship,pattern
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,freedom of religion,pattern
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,interfaith dialogue,pattern
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,political diversity,pattern
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,religious freedom,pattern
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,bipartisanship,anchor term
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,freedom of religion,anchor term
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,interfaith dialogue,anchor term
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,political diversity,anchor term
+Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,religious freedom,anchor term
+Reproductive Rights,Reproductive Rights,Reproductive Rights,abortion access,pattern
+Reproductive Rights,Reproductive Rights,Reproductive Rights,contraception,pattern
+Reproductive Rights,Reproductive Rights,Reproductive Rights,family planning,pattern
+Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive healthcare,pattern
+Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive rights,pattern
+Reproductive Rights,Reproductive Rights,Reproductive Rights,women's health,pattern
+Reproductive Rights,Reproductive Rights,Reproductive Rights,abortion access,anchor term
+Reproductive Rights,Reproductive Rights,Reproductive Rights,contraception,anchor term
+Reproductive Rights,Reproductive Rights,Reproductive Rights,family planning,anchor term
+Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive healthcare,anchor term
+Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive rights,anchor term
+Reproductive Rights,Reproductive Rights,Reproductive Rights,women's health,anchor term
+Veterans' Rights,Veterans' Rights,Veterans' Rights,armed services,pattern
+Veterans' Rights,Veterans' Rights,Veterans' Rights,first responders,pattern
+Veterans' Rights,Veterans' Rights,Veterans' Rights,military,pattern
+Veterans' Rights,Veterans' Rights,Veterans' Rights,service members,pattern
+Veterans' Rights,Veterans' Rights,Veterans' Rights,veterans,pattern
+Veterans' Rights,Veterans' Rights,Veterans' Rights,veterans day,pattern
+Veterans' Rights,Veterans' Rights,Veterans' Rights,armed services,anchor term
+Veterans' Rights,Veterans' Rights,Veterans' Rights,first responders,anchor term
+Veterans' Rights,Veterans' Rights,Veterans' Rights,military,anchor term
+Veterans' Rights,Veterans' Rights,Veterans' Rights,service members,anchor term
+Veterans' Rights,Veterans' Rights,Veterans' Rights,Veterans,anchor term
+Veterans' Rights,Veterans' Rights,Veterans' Rights,veterans day,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,401k,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,collective bargaining,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,employee representation,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,employee rights,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,employee wellfare,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,executive compensation,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,executive pay,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,fair wage,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor compliance,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor day,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor standards,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor union partnerships,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,pensions,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,personal time off,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,retirement benefits,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,time off,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,workers' rights,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,working conditions,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,workplace equity,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,workplace fairness,pattern
+Workers’ Rights,Workers’ Rights,Workers’ Rights,401k,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,Collective Bargaining,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,Employee Representation,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,employee rights,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,employee wellfare,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,executive compensation,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,executive pay,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,fair wage,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor compliance,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor day,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,labor standards,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,Labor Union Partnerships,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,pensions,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,personal time off,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,retirement benefits,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,time off,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,Workers' Rights,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,working conditions,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,workplace equity,anchor term
+Workers’ Rights,Workers’ Rights,Workers’ Rights,Workplace Fairness,anchor term
