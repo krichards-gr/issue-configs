@@ -67,15 +67,17 @@ def main():
     for text in df[target_column]:
         detected = analyzer.analyze_text(str(text))
         if not detected:
-            results.append({"detected_topics": None, "issue_areas": None, "issue_subtopics": None})
+            results.append({"issue_subtopics": None, "issue_areas": None, "detected_topics": None})
+            # Note: keeping detected_topics as None for backwards compatibility if needed, or just standardizing on issue_subtopics
+            # User specifically asked for rename, so let's stick to the requested name
+            results[-1] = {"issue_subtopics": None, "issue_areas": None}
         else:
             topics = "; ".join([d['topic'] for d in detected])
             areas = "; ".join(list(set([d['issue_area'] for d in detected])))
-            subtopics = "; ".join(list(set([d['issue_subtopic'] for d in detected])))
+            # subtopics are identical to topics in this schema, so we omit them to avoid redundancy
             results.append({
-                "detected_topics": topics, 
-                "issue_areas": areas,
-                "issue_subtopics": subtopics
+                "issue_subtopics": topics, 
+                "issue_areas": areas
             })
 
     results_df = pd.DataFrame(results)
