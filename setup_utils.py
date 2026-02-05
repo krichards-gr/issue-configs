@@ -57,15 +57,14 @@ def ensure_setup(nlp_model="en_core_web_sm", embedding_model="all-MiniLM-L6-v2")
         print(f"  Error loading/downloading SentenceTransformer: {e}")
         # Note: We don't sys.exit here because SentenceTransformer usually handles its own downloads
 
-    # 4. Ensure topics.json exists
-    if not os.path.exists("topics.json"):
-        print("topics.json missing. Generating from raw inputs...")
-        try:
-            from generate_topics import generate_topics_json
-            generate_topics_json()
-            print("  Successfully generated topics.json.")
-        except Exception as e:
-            print(f"  Error generating topics.json: {e}")
+    # Always ensure topics.json is fresh
+    print("Regenerating topics.json from raw inputs...")
+    try:
+        from generate_topics import generate_topics_json
+        generate_topics_json()
+        print("  Successfully updated topics.json.")
+    except Exception as e:
+        print(f"  Error updating topics.json: {e}")
 
     print("Success: Environment is ready.\n")
 

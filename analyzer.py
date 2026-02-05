@@ -8,9 +8,8 @@ from generate_topics import generate_topics_json
 
 class IssueAnalyzer:
     def __init__(self, topics_file='topics.json', similarity_threshold=0.7, nlp_model="en_core_web_sm", embedding_model="all-MiniLM-L6-v2"):
-        # Automatically regenerate topics.json if it doesn't exist
-        if not os.path.exists(topics_file):
-            generate_topics_json()
+        # Always regenerate topics.json to ensure latest configs are used
+        generate_topics_json()
         
         self.topics_file = topics_file
         self.similarity_threshold = similarity_threshold
