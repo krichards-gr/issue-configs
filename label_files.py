@@ -67,11 +67,16 @@ def main():
     for text in df[target_column]:
         detected = analyzer.analyze_text(str(text))
         if not detected:
-            results.append({"detected_topics": None, "issue_areas": None})
+            results.append({"detected_topics": None, "issue_areas": None, "issue_subtopics": None})
         else:
             topics = "; ".join([d['topic'] for d in detected])
             areas = "; ".join(list(set([d['issue_area'] for d in detected])))
-            results.append({"detected_topics": topics, "issue_areas": areas})
+            subtopics = "; ".join(list(set([d['issue_subtopic'] for d in detected])))
+            results.append({
+                "detected_topics": topics, 
+                "issue_areas": areas,
+                "issue_subtopics": subtopics
+            })
 
     results_df = pd.DataFrame(results)
     final_df = pd.concat([df, results_df], axis=1)

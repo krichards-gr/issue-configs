@@ -60,8 +60,8 @@ def ensure_setup(nlp_model="en_core_web_sm", embedding_model="all-MiniLM-L6-v2")
     # Always ensure topics.json is fresh
     print("Regenerating topics.json from raw inputs...")
     try:
-        from generate_topics import generate_topics_json
-        generate_topics_json()
+        from generate_topics import generate_all
+        generate_all()
         print("  Successfully updated topics.json.")
     except Exception as e:
         print(f"  Error updating topics.json: {e}")

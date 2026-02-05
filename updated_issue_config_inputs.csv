@@ -1,460 +1,887 @@
 issue_area,issue_subtopic,topic,term,type
-AI & Technology,AI & Technology,AI & Technology,ai,pattern
-AI & Technology,AI & Technology,AI & Technology,artificial intelligence,pattern
-AI & Technology,AI & Technology,AI & Technology,generative ai,pattern
-AI & Technology,AI & Technology,AI & Technology,AI,anchor term
-AI & Technology,AI & Technology,AI & Technology,artificial intelligence,anchor term
-AI & Technology,AI & Technology,AI & Technology,Generative AI,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,animal equality,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,animal testing,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,animal vaccines,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,better chicken commitment,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,cage-free hens,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,crate-free pork,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,frankenchicken,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,gestation crates,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,no antibiotics ever,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,pork housing,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,sow housing,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,us livestock policy,pattern
-Animal Welfare,Animal Welfare,Animal Welfare,Animal Equality,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Animal testing,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,animal vaccines,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Better Chicken Commitment,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Cage-free hens,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Crate-free pork,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Frankenchicken,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Gestation crates,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,No Antibiotics Ever,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,Pork housing,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,sow housing,anchor term
-Animal Welfare,Animal Welfare,Animal Welfare,US Livestock policy,anchor term
-Climate Change,Climate Change,Climate Change,anti-esg,pattern
-Climate Change,Climate Change,Climate Change,antiesg,pattern
-Climate Change,Climate Change,Climate Change,cap and trade,pattern
-Climate Change,Climate Change,Climate Change,cap-and-trade,pattern
-Climate Change,Climate Change,Climate Change,carbon credits,pattern
-Climate Change,Climate Change,Climate Change,carbon offset,pattern
-Climate Change,Climate Change,Climate Change,carbon offsets,pattern
-Climate Change,Climate Change,Climate Change,clean energy,pattern
-Climate Change,Climate Change,Climate Change,climate disclosure,pattern
-Climate Change,Climate Change,Climate Change,climate justice,pattern
-Climate Change,Climate Change,Climate Change,CSD3,pattern
-Climate Change,Climate Change,Climate Change,CSDDD,pattern
-Climate Change,Climate Change,Climate Change,deforestation,pattern
-Climate Change,Climate Change,Climate Change,divestment,pattern
-Climate Change,Climate Change,Climate Change,emissions disclosure,pattern
-Climate Change,Climate Change,Climate Change,endangerment finding,pattern
-Climate Change,Climate Change,Climate Change,environmental pollution,pattern
-Climate Change,Climate Change,Climate Change,ESG,pattern
-Climate Change,Climate Change,Climate Change,EtO,pattern
-Climate Change,Climate Change,Climate Change,EUDR,pattern
-Climate Change,Climate Change,Climate Change,fiduciary duty,pattern
-Climate Change,Climate Change,Climate Change,fossil fuel financing,pattern
-Climate Change,Climate Change,Climate Change,fossil fuels,pattern
-Climate Change,Climate Change,Climate Change,green bonds,pattern
-Climate Change,Climate Change,Climate Change,natural disaster,pattern
-Climate Change,Climate Change,Climate Change,natural disasters,pattern
-Climate Change,Climate Change,Climate Change,NDCs,pattern
-Climate Change,Climate Change,Climate Change,net zero,pattern
-Climate Change,Climate Change,Climate Change,Petersberg Climate Dialogue,pattern
-Climate Change,Climate Change,Climate Change,PFAS,pattern
-Climate Change,Climate Change,Climate Change,plastic,pattern
-Climate Change,Climate Change,Climate Change,plastic recycling,pattern
-Climate Change,Climate Change,Climate Change,plastic supply chain,pattern
-Climate Change,Climate Change,Climate Change,plastic waste,pattern
-Climate Change,Climate Change,Climate Change,plasticulture,pattern
-Climate Change,Climate Change,Climate Change,regenerative agriculture,pattern
-Climate Change,Climate Change,Climate Change,RimbaRaya,pattern
-Climate Change,Climate Change,Climate Change,SB 253,pattern
-Climate Change,Climate Change,Climate Change,SB 261,pattern
-Climate Change,Climate Change,Climate Change,SBTi,pattern
-Climate Change,Climate Change,Climate Change,super fund law,pattern
-Climate Change,Climate Change,Climate Change,water stewardship,pattern
-Climate Change,Climate Change,Climate Change,financial results,exclusionary term
-Climate Change,Climate Change,Climate Change,plastic surgery,exclusionary term
-Climate Change,Climate Change,Climate Change,the health of the planet's climate is essential to human life,anchor term
-Climate Change,Climate Change,Climate Change,our communities rely on us to protect the planet,anchor term
-Climate Change,Climate Change,Climate Change,corporate responsibility,anchor term
-Climate Change,Climate Change,Climate Change,Nationally Determined Contributions,anchor term
-Climate Change,Climate Change,Climate Change,plastic pollution,anchor term
-Climate Change,Climate Change,Climate Change,science based targets,anchor term
-Climate Change,Climate Change,Climate Change,sustainable agriculture,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,american red cross,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodegradable plastics,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodiversity,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon footprint,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon reduction,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon sequestration,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,circular economy,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,clean energy,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate resiliance,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,community resilience,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,conservation,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,deforestation prevention,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster donations,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster preparedness,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster recover,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster relief,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,divestment,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,earthquake,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,eco-friendly plastics,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency assistance,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency relief,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emissions,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,fema,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,forest,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,fossil fuel,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,hurricane,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,natural disaster,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,nature positive,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,net-zero,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,ocean cleanup,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,paris agreement,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,plastic waste,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,pollution,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,recycling,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,regenerative agriculture,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,renewable energy,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 1,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 2,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 3,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable agriculture,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable finance,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable packaging,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable sourcing,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,tornado,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,wildfire,pattern
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,American Red Cross,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodegradable plastics,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,biodiversity,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon footprint,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon reduction,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,carbon sequestration,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,circular economy,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,clean energy,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,climate resiliance,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Community Resilience,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,conservation,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,deforestation prevention,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster donations,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Disaster Preparedness,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,disaster recover,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Disaster relief,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,divestment,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,earthquake,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,eco-friendly plastics,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emergency,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Emergency Assistance,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Emergency Relief,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,emissions,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,FEMA,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,forest,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,fossil fuel,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,hurricane,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,natural disaster,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,nature positive,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,net-zero,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,ocean cleanup,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,Paris Agreement,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,plastic waste,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,pollution,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,recycling,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,regenerative agriculture,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,renewable energy,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 1,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 2,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,scope 3,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable agriculture,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable finance,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable packaging,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,sustainable sourcing,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,tornado,anchor term
-Climate Change & Sustainability,Climate Change & Sustainability,Climate Change & Sustainability,wildfire,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,law enforcement,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,orc,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,organized retail crime,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,police,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,public safety,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,retail theft,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,safety,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,shoplifting,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,shrink,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,theft,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,worker safety,pattern
-Crime & Safety,Crime & Safety,Crime & Safety,law enforcement,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,ORC,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,organized retail crime,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,police,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,public safety,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,retail theft,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,safety,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,shoplifting,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,shrink,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,theft,anchor term
-Crime & Safety,Crime & Safety,Crime & Safety,worker safety,anchor term
-Disability Rights,Disability Rights,Disability Rights,accessibility,pattern
-Disability Rights,Disability Rights,Disability Rights,accessible,pattern
-Disability Rights,Disability Rights,Disability Rights,ada,pattern
-Disability Rights,Disability Rights,Disability Rights,americans with disabilities act,pattern
-Disability Rights,Disability Rights,Disability Rights,disability,pattern
-Disability Rights,Disability Rights,Disability Rights,neurodiversity,pattern
-Disability Rights,Disability Rights,Disability Rights,physical disability,pattern
-Disability Rights,Disability Rights,Disability Rights,sensory friendly,pattern
-Disability Rights,Disability Rights,Disability Rights,accessibility,anchor term
-Disability Rights,Disability Rights,Disability Rights,accessible,anchor term
-Disability Rights,Disability Rights,Disability Rights,ADA,anchor term
-Disability Rights,Disability Rights,Disability Rights,Americans with Disabilities Act,anchor term
-Disability Rights,Disability Rights,Disability Rights,disability,anchor term
-Disability Rights,Disability Rights,Disability Rights,neurodiversity,anchor term
-Disability Rights,Disability Rights,Disability Rights,physical disability,anchor term
-Disability Rights,Disability Rights,Disability Rights,sensory friendly,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,drug affordability,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,drug costs,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,drug pricing,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,insulin costs,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,medication costs,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,medication pricing,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical costs,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical pricing,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,prescription drugs,pattern
-Drug Pricing,Drug Pricing,Drug Pricing,drug affordability,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,drug costs,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,drug pricing,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,insulin costs,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,medication costs,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,medication pricing,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical costs,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,pharmaceutical pricing,anchor term
-Drug Pricing,Drug Pricing,Drug Pricing,prescription drugs,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,affordable housing,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,broadband access,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,child tax credit,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,childcare access,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,cost of living,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,economic opportunity,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,education access,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,financial literacy,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,inflation,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,internet access,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,minimum wage,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,small business support,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,student debt,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,student loans,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,wealth gap,pattern
-Economic Empowerment,Economic Empowerment,Economic Empowerment,affordable housing,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,broadband access,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,child tax credit,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,childcare access,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,cost of living,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,economic opportunity,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,education access,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,financial literacy,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,inflation,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,internet access,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,minimum wage,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,small business support,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,student debt,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,student loans,anchor term
-Economic Empowerment,Economic Empowerment,Economic Empowerment,wealth gap,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,ballot access,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,campaign finance,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,election integrity,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,election security,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,gerrymandering,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,voter access,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,voter registration,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,voter rights,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,voter suppression,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,voting rights,pattern
-Elections & Administration,Elections & Administration,Elections & Administration,ballot access,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,campaign finance,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,election integrity,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,election security,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,gerrymandering,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,voter access,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,voter registration,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,voter rights,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,voter suppression,anchor term
-Elections & Administration,Elections & Administration,Elections & Administration,voting rights,anchor term
-Gender Equity,Gender Equity,Gender Equity,equal pay,pattern
-Gender Equity,Gender Equity,Gender Equity,gender equality,pattern
-Gender Equity,Gender Equity,Gender Equity,gender equity,pattern
-Gender Equity,Gender Equity,Gender Equity,gender gap,pattern
-Gender Equity,Gender Equity,Gender Equity,gender pay gap,pattern
-Gender Equity,Gender Equity,Gender Equity,maternal health,pattern
-Gender Equity,Gender Equity,Gender Equity,maternity leave,pattern
-Gender Equity,Gender Equity,Gender Equity,paid leave,pattern
-Gender Equity,Gender Equity,Gender Equity,parental leave,pattern
-Gender Equity,Gender Equity,Gender Equity,women's empowerment,pattern
-Gender Equity,Gender Equity,Gender Equity,women's rights,pattern
-Gender Equity,Gender Equity,Gender Equity,equal pay,anchor term
-Gender Equity,Gender Equity,Gender Equity,gender equality,anchor term
-Gender Equity,Gender Equity,Gender Equity,gender equity,anchor term
-Gender Equity,Gender Equity,Gender Equity,gender gap,anchor term
-Gender Equity,Gender Equity,Gender Equity,gender pay gap,anchor term
-Gender Equity,Gender Equity,Gender Equity,maternal health,anchor term
-Gender Equity,Gender Equity,Gender Equity,maternity leave,anchor term
-Gender Equity,Gender Equity,Gender Equity,paid leave,anchor term
-Gender Equity,Gender Equity,Gender Equity,parental leave,anchor term
-Gender Equity,Gender Equity,Gender Equity,women's empowerment,anchor term
-Gender Equity,Gender Equity,Gender Equity,women's rights,anchor term
-Health Access,Health Access,Health Access,health equity,pattern
-Health Access,Health Access,Health Access,healthcare access,pattern
-Health Access,Health Access,Health Access,healthcare affordability,pattern
-Health Access,Health Access,Health Access,insurance coverage,pattern
-Health Access,Health Access,Health Access,medicaid,pattern
-Health Access,Health Access,Health Access,medicare,pattern
-Health Access,Health Access,Health Access,mental health access,pattern
-Health Access,Health Access,Health Access,public health,pattern
-Health Access,Health Access,Health Access,rural healthcare,pattern
-Health Access,Health Access,Health Access,telehealth,pattern
-Health Access,Health Access,Health Access,health equity,anchor term
-Health Access,Health Access,Health Access,healthcare access,anchor term
-Health Access,Health Access,Health Access,healthcare affordability,anchor term
-Health Access,Health Access,Health Access,insurance coverage,anchor term
-Health Access,Health Access,Health Access,medicaid,anchor term
-Health Access,Health Access,Health Access,medicare,anchor term
-Health Access,Health Access,Health Access,mental health access,anchor term
-Health Access,Health Access,Health Access,public health,anchor term
-Health Access,Health Access,Health Access,rural healthcare,anchor term
-Health Access,Health Access,Health Access,telehealth,anchor term
-Immigration,Immigration,Immigration,asylum,pattern
-Immigration,Immigration,Immigration,border security,pattern
-Immigration,Immigration,Immigration,daca,pattern
-Immigration,Immigration,Immigration,dreamers,pattern
-Immigration,Immigration,Immigration,immigration reform,pattern
-Immigration,Immigration,Immigration,migrant rights,pattern
-Immigration,Immigration,Immigration,pathway to citizenship,pattern
-Immigration,Immigration,Immigration,refugees,pattern
-Immigration,Immigration,Immigration,asylum,anchor term
-Immigration,Immigration,Immigration,border security,anchor term
-Immigration,Immigration,Immigration,DACA,anchor term
-Immigration,Immigration,Immigration,dreamers,anchor term
-Immigration,Immigration,Immigration,immigration reform,anchor term
-Immigration,Immigration,Immigration,migrant rights,anchor term
-Immigration,Immigration,Immigration,pathway to citizenship,anchor term
-Immigration,Immigration,Immigration,refugees,anchor term
-International Reputational Risks,International Reputational Risks,International Reputational Risks,global human rights,pattern
-International Reputational Risks,International Reputational Risks,International Reputational Risks,international labor standards,pattern
-International Reputational Risks,International Reputational Risks,International Reputational Risks,supply chain ethics,pattern
-International Reputational Risks,International Reputational Risks,International Reputational Risks,trade compliance,pattern
-International Reputational Risks,International Reputational Risks,International Reputational Risks,global human rights,anchor term
-International Reputational Risks,International Reputational Risks,International Reputational Risks,international labor standards,anchor term
-International Reputational Risks,International Reputational Risks,International Reputational Risks,supply chain ethics,anchor term
-International Reputational Risks,International Reputational Risks,International Reputational Risks,trade compliance,anchor term
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,equality act,pattern
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,gender affirming care,pattern
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,lgbtq+ rights,pattern
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,pride,pattern
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,same-sex marriage,pattern
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,transgender rights,pattern
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,Equality Act,anchor term
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,gender affirming care,anchor term
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ rights,anchor term
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,pride,anchor term
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,same-sex marriage,anchor term
-LGBTQ+ Equality,LGBTQ+ Equality,LGBTQ+ Equality,transgender rights,anchor term
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food deserts,pattern
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food insecurity,pattern
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,hunger relief,pattern
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,nutrition assistance,pattern
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,snap,pattern
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,wic,pattern
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food deserts,anchor term
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,food insecurity,anchor term
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,hunger relief,anchor term
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,nutrition assistance,anchor term
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,SNAP,anchor term
-Nutrition & Food access,Nutrition & Food access,Nutrition & Food access,WIC,anchor term
-Racial Equity,Racial Equity,Racial Equity,anti-racism,pattern
-Racial Equity,Racial Equity,Racial Equity,civil rights,pattern
-Racial Equity,Racial Equity,Racial Equity,dei,pattern
-Racial Equity,Racial Equity,Racial Equity,diversity,pattern
-Racial Equity,Racial Equity,Racial Equity,inclusion,pattern
-Racial Equity,Racial Equity,Racial Equity,racial justice,pattern
-Racial Equity,Racial Equity,Racial Equity,systemic racism,pattern
-Racial Equity,Racial Equity,Racial Equity,anti-racism,anchor term
-Racial Equity,Racial Equity,Racial Equity,civil rights,anchor term
-Racial Equity,Racial Equity,Racial Equity,DEI,anchor term
-Racial Equity,Racial Equity,Racial Equity,diversity,anchor term
-Racial Equity,Racial Equity,Racial Equity,inclusion,anchor term
-Racial Equity,Racial Equity,Racial Equity,racial justice,anchor term
-Racial Equity,Racial Equity,Racial Equity,systemic racism,anchor term
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,bipartisanship,pattern
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,freedom of religion,pattern
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,interfaith dialogue,pattern
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,political diversity,pattern
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,religious freedom,pattern
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,bipartisanship,anchor term
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,freedom of religion,anchor term
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,interfaith dialogue,anchor term
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,political diversity,anchor term
-Religious & Political Diversity,Religious & Political Diversity,Religious & Political Diversity,religious freedom,anchor term
-Reproductive Rights,Reproductive Rights,Reproductive Rights,abortion access,pattern
-Reproductive Rights,Reproductive Rights,Reproductive Rights,contraception,pattern
-Reproductive Rights,Reproductive Rights,Reproductive Rights,family planning,pattern
-Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive healthcare,pattern
-Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive rights,pattern
-Reproductive Rights,Reproductive Rights,Reproductive Rights,women's health,pattern
-Reproductive Rights,Reproductive Rights,Reproductive Rights,abortion access,anchor term
-Reproductive Rights,Reproductive Rights,Reproductive Rights,contraception,anchor term
-Reproductive Rights,Reproductive Rights,Reproductive Rights,family planning,anchor term
-Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive healthcare,anchor term
-Reproductive Rights,Reproductive Rights,Reproductive Rights,reproductive rights,anchor term
-Reproductive Rights,Reproductive Rights,Reproductive Rights,women's health,anchor term
-Veterans' Rights,Veterans' Rights,Veterans' Rights,armed services,pattern
-Veterans' Rights,Veterans' Rights,Veterans' Rights,first responders,pattern
-Veterans' Rights,Veterans' Rights,Veterans' Rights,military,pattern
-Veterans' Rights,Veterans' Rights,Veterans' Rights,service members,pattern
-Veterans' Rights,Veterans' Rights,Veterans' Rights,veterans,pattern
-Veterans' Rights,Veterans' Rights,Veterans' Rights,veterans day,pattern
-Veterans' Rights,Veterans' Rights,Veterans' Rights,armed services,anchor term
-Veterans' Rights,Veterans' Rights,Veterans' Rights,first responders,anchor term
-Veterans' Rights,Veterans' Rights,Veterans' Rights,military,anchor term
-Veterans' Rights,Veterans' Rights,Veterans' Rights,service members,anchor term
-Veterans' Rights,Veterans' Rights,Veterans' Rights,Veterans,anchor term
-Veterans' Rights,Veterans' Rights,Veterans' Rights,veterans day,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,401k,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,collective bargaining,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,employee representation,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,employee rights,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,employee wellfare,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,executive compensation,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,executive pay,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,fair wage,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor compliance,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor day,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor standards,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor union partnerships,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,pensions,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,personal time off,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,retirement benefits,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,time off,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,workers' rights,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,working conditions,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,workplace equity,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,workplace fairness,pattern
-Workers’ Rights,Workers’ Rights,Workers’ Rights,401k,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,Collective Bargaining,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,Employee Representation,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,employee rights,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,employee wellfare,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,executive compensation,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,executive pay,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,fair wage,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor compliance,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor day,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,labor standards,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,Labor Union Partnerships,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,pensions,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,personal time off,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,retirement benefits,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,time off,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,Workers' Rights,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,working conditions,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,workplace equity,anchor term
-Workers’ Rights,Workers’ Rights,Workers’ Rights,Workplace Fairness,anchor term
+Climate Change & ESG,Climate Change,Climate Change,climate change,pattern
+Climate Change & ESG,Climate Change,Climate Change,#climatechange,pattern
+Climate Change & ESG,Climate Change,Climate Change,sustainability,pattern
+Climate Change & ESG,Climate Change,Climate Change,#sustainability,pattern
+Climate Change & ESG,Climate Change,Climate Change,carbon offsets,pattern
+Climate Change & ESG,Climate Change,Climate Change,#carbon offsets,pattern
+Climate Change & ESG,Climate Change,Climate Change,ESG,pattern
+Climate Change & ESG,Climate Change,Climate Change,#ESG,pattern
+Climate Change & ESG,Climate Change,Climate Change,anti-ESG,pattern
+Climate Change & ESG,Climate Change,Climate Change,#anti-ESG,pattern
+Climate Change & ESG,Climate Change,Climate Change,anti ESG,pattern
+Climate Change & ESG,Climate Change,Climate Change,#antiESG,pattern
+Climate Change & ESG,Climate Change,Climate Change,fudiciary duty,pattern
+Climate Change & ESG,Climate Change,Climate Change,#fudiciaryduty,pattern
+Climate Change & ESG,Climate Change,Climate Change,divestment,pattern
+Climate Change & ESG,Climate Change,Climate Change,#divestment,pattern
+Climate Change & ESG,Climate Change,Climate Change,net zero,pattern
+Climate Change & ESG,Climate Change,Climate Change,#netzero,pattern
+Climate Change & ESG,Climate Change,Climate Change,carbon neutral,pattern
+Climate Change & ESG,Climate Change,Climate Change,#carbon neutral,pattern
+Climate Change & ESG,Climate Change,Climate Change,carbon emissions,pattern
+Climate Change & ESG,Climate Change,Climate Change,#carbonemissions,pattern
+Climate Change & ESG,Climate Change,Climate Change,CSDDD,pattern
+Climate Change & ESG,Climate Change,Climate Change,CSD3,pattern
+Climate Change & ESG,Climate Change,Climate Change,EUDR,pattern
+Climate Change & ESG,Climate Change,Climate Change,EU climate reporting,pattern
+Climate Change & ESG,Climate Change,Climate Change,nuclear energy,pattern
+Climate Change & ESG,Climate Change,Climate Change,offshore drilling,pattern
+Climate Change & ESG,Climate Change,Climate Change,surgery,exclusionary term
+Climate Change & ESG,Climate Change,Climate Change,#surgery,exclusionary term
+Climate Change & ESG,Energy Sources,Energy Sources,clean energy,pattern
+Climate Change & ESG,Energy Sources,Energy Sources,#cleanenergy,pattern
+Climate Change & ESG,Energy Sources,Energy Sources,fossil fuels,pattern
+Climate Change & ESG,Energy Sources,Energy Sources,fossil fuel,pattern
+Climate Change & ESG,Energy Sources,Energy Sources,#fossilfuel,pattern
+Climate Change & ESG,Energy Sources,Energy Sources,big oil,pattern
+Climate Change & ESG,Energy Sources,Energy Sources,#big oil,pattern
+Climate Change & ESG,ESG,ESG,ESG,pattern
+Climate Change & ESG,ESG,ESG,#ESG,pattern
+Climate Change & ESG,ESG,ESG,esg,pattern
+Climate Change & ESG,ESG,ESG,#esg,pattern
+Climate Change & ESG,ESG,ESG,anti-ESG,pattern
+Climate Change & ESG,ESG,ESG,#anti-ESG,pattern
+Climate Change & ESG,ESG,ESG,climate AND woke,pattern
+Climate Change & ESG,ESG,ESG,antiESG,pattern
+Climate Change & ESG,ESG,ESG,#antiESG,pattern
+Climate Change & ESG,ESG,ESG,CSDDD,pattern
+Climate Change & ESG,ESG,ESG,#CSDDD,pattern
+Climate Change & ESG,ESG,ESG,SEC Climate,pattern
+Climate Change & ESG,ESG,ESG,#SECClimate,pattern
+Climate Change & ESG,ESG,ESG,sustainability disclosure,pattern
+Climate Change & ESG,ESG,ESG,#sustainabilitydisclosure,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,natural disaster,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,#naturaldisaster,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,natural disasters,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,#naturaldisasters,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,home insurance AND climate change,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,home insurance AND hurricane,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,flood insurance AND climate change,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,flood insurance,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,insurance coverage,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,insurance AND climate,pattern
+Climate Change & ESG,Natural Disasters,Natural Disasters,flood insurance AND hurricane,pattern
+Climate Change & ESG,Net Zero,Net Zero,net zero,pattern
+Climate Change & ESG,Net Zero,Net Zero,#netzero,pattern
+Climate Change & ESG,Net Zero,Net Zero,emissions reduction,pattern
+Climate Change & ESG,Net Zero,Net Zero,#emissionsreduction,pattern
+Climate Change & ESG,Net Zero,Net Zero,SBTi,pattern
+Climate Change & ESG,Net Zero,Net Zero,#SBTi,pattern
+Climate Change & ESG,Net Zero,Net Zero,emissions AND verification,pattern
+Climate Change & ESG,Plastic,Plastic,plastic,pattern
+Climate Change & ESG,Plastic,Plastic,#plastic,pattern
+Climate Change & ESG,Plastic,Plastic,plastic waste,pattern
+Climate Change & ESG,Plastic,Plastic,#plasticwaste,pattern
+Climate Change & ESG,Plastic,Plastic,recycle,pattern
+Climate Change & ESG,Plastic,Plastic,#recycle,pattern
+Climate Change & ESG,Plastic,Plastic,recycling,pattern
+Climate Change & ESG,Plastic,Plastic,recycling infrastructure,pattern
+Climate Change & ESG,Plastic,Plastic,sustainable packaging,pattern
+Climate Change & ESG,Plastic,Plastic,#sustainablepackaging,pattern
+Climate Change & ESG,Plastic,Plastic,#PFAS,pattern
+Climate Change & ESG,Plastic,Plastic,PFAS,pattern
+Climate Change & ESG,Plastic,Plastic,#foreverchemicals,pattern
+Climate Change & ESG,Plastic,Plastic,forever chemicals,pattern
+Climate Change & ESG,Plastic,Plastic,#foreverchemical,pattern
+Climate Change & ESG,Plastic,Plastic,forever chemical,pattern
+Climate Change & ESG,Plastic,Plastic,reusable packaging,pattern
+Climate Change & ESG,Plastic,Plastic,recycled packaging,pattern
+Climate Change & ESG,Plastic,Plastic,plastic pollution crisis,pattern
+Climate Change & ESG,Plastic,Plastic,circular economy,pattern
+Climate Change & ESG,Plastic,Plastic,compostable packaging,pattern
+Climate Change & ESG,Plastic,Plastic,plastic treaty,pattern
+Climate Change & ESG,Plastic,Plastic,global plastic treaty,pattern
+Climate Change & ESG,Plastic,Plastic,#plasticpollutioncrisis,pattern
+Climate Change & ESG,Plastic,Plastic,#recycledpackaging,pattern
+Climate Change & ESG,Plastic,Plastic,#reusablepackaging,pattern
+Climate Change & ESG,Plastic,Plastic,plastic reduction,pattern
+Climate Change & ESG,Plastic,Plastic,plastic crisis,pattern
+Climate Change & ESG,Plastic,Plastic,#plasticrisis,pattern
+Climate Change & ESG,Plastic,Plastic,recyclable packaging,pattern
+Climate Change & ESG,Plastic,Plastic,#recyclablepackaging,pattern
+Climate Change & ESG,Plastic,Plastic,ethylene oxide,pattern
+Climate Change & ESG,Plastic,Plastic,PFOA,pattern
+Climate Change & ESG,Plastic,Plastic,#PFOA,pattern
+Climate Change & ESG,Sustainability,Sustainability,sustainable agriculture,pattern
+Climate Change & ESG,Sustainability,Sustainability,#sustainableagriculture,pattern
+Climate Change & ESG,Sustainability,Sustainability,#sustainableag,pattern
+Climate Change & ESG,Sustainability,Sustainability,sustainable farming,pattern
+Climate Change & ESG,Sustainability,Sustainability,#sustainablefarming,pattern
+Climate Change & ESG,Sustainability,Sustainability,water stewardship,pattern
+Climate Change & ESG,Sustainability,Sustainability,#waterstewardship,pattern
+Climate Change & ESG,Sustainability,Sustainability,water conservation,pattern
+Climate Change & ESG,Sustainability,Sustainability,#water conservation,pattern
+Climate Change & ESG,Sustainability,Sustainability,water waste,pattern
+Climate Change & ESG,Sustainability,Sustainability,#waterconsumption,pattern
+Climate Change & ESG,Sustainability,Sustainability,water consumption,pattern
+Climate Change & ESG,Sustainability,Sustainability,water scarcity,pattern
+Climate Change & ESG,Sustainability,Sustainability,corporate water stewardship,pattern
+Climate Change & ESG,Sustainability,Sustainability,water risk,pattern
+Climate Change & ESG,Sustainability,Sustainability,water stress,pattern
+Climate Change & ESG,Sustainability,Sustainability,deforestation,pattern
+Climate Change & ESG,Sustainability,Sustainability,#deforestation,pattern
+Climate Change & ESG,Sustainability,Sustainability,cocoa and forests initiative,pattern
+Climate Change & ESG,Sustainability,Sustainability,cocoa-related deforestation,pattern
+Climate Change & ESG,Sustainability,Sustainability,cocoa & forests initiative,pattern
+Climate Change & ESG,Sustainability,Sustainability,#cocoa-relateddeforestation,pattern
+Climate Change & ESG,Sustainability,Sustainability,#cocoaandforests,pattern
+Climate Change & ESG,Sustainability,Sustainability,corporate responsibility,pattern
+AI,AI Equity,AI Equity,hatespeech,pattern
+AI,AI Equity,AI Equity,#hatespeech,pattern
+AI,AI Equity,AI Equity,online harassment,pattern
+AI,AI Equity,AI Equity,#onlineharassment,pattern
+AI,AI Equity,AI Equity,racist slurs,pattern
+AI,AI Equity,AI Equity,#racistslurs,pattern
+AI,AI Equity,AI Equity,AI bias,pattern
+AI,AI Equity,AI Equity,#AIbias,pattern
+AI,AI Equity,AI Equity,biased alogrithms,pattern
+AI,AI Equity,AI Equity,#biasedalgorithms,pattern
+AI,AI Equity,AI Equity,facial recognition,pattern
+AI,AI Equity,AI Equity,#facialrecognition,pattern
+AI,AI Equity,AI Equity,predictive policing,pattern
+AI,AI Equity,AI Equity,#predictivepolicing,pattern
+AI,AI Equity,AI Equity,biometric data,pattern
+AI,AI Equity,AI Equity,#biometricdata,pattern
+AI,AI Liability,AI Liability,Section 230,pattern
+AI,AI Liability,AI Liability,#section230,pattern
+AI,AI Liability,AI Liability,cybercrimes,pattern
+AI,AI Liability,AI Liability,#cybercrimes,pattern
+AI,AI Liability,AI Liability,algorithmic decisions,pattern
+AI,AI Liability,AI Liability,#algorithmicdecisions,pattern
+AI,AI Liability,AI Liability,notice-and-choice,pattern
+AI,AI Liability,AI Liability,#noticeandchoice,pattern
+AI,AI Liability,AI Liability,opt-out,pattern
+AI,AI Liability,AI Liability,#opt-out,pattern
+AI,AI Liability,AI Liability,GDPR,pattern
+AI,AI Liability,AI Liability,#GDPR,pattern
+AI,AI Liability,AI Liability,Liability,pattern
+AI,AI Liability,AI Liability,#liability,pattern
+AI,AI Misinformation,AI Misinformation,misinformation,pattern
+AI,AI Misinformation,AI Misinformation,#misinformation,pattern
+AI,AI Misinformation,AI Misinformation,disinformation,pattern
+AI,AI Misinformation,AI Misinformation,#disinformation,pattern
+AI,AI Misinformation,AI Misinformation,hallucinations,pattern
+AI,AI Misinformation,AI Misinformation,#hallucinations,pattern
+AI,AI Misinformation,AI Misinformation,deepfakes,pattern
+AI,AI Misinformation,AI Misinformation,#deepfakes,pattern
+AI,AI Misinformation,AI Misinformation,political censorship,pattern
+AI,AI Misinformation,AI Misinformation,#politicalcensorship,pattern
+AI,AI Misinformation,AI Misinformation,REAL Political Ads Act,pattern
+AI,AI Misinformation,AI Misinformation,#REALPoliticalAdsAct,pattern
+AI,AI Privacy,AI Privacy,tracking,pattern
+AI,AI Privacy,AI Privacy,#tracking,pattern
+AI,AI Privacy,AI Privacy,geolocation,pattern
+AI,AI Privacy,AI Privacy,#geolocation,pattern
+AI,AI Privacy,AI Privacy,data collection,pattern
+AI,AI Privacy,AI Privacy,#datacollection,pattern
+AI,AI Privacy,AI Privacy,adtech,pattern
+AI,AI Privacy,AI Privacy,#adtech,pattern
+AI,AI Privacy,AI Privacy,kids online,pattern
+AI,AI Privacy,AI Privacy,#kidsonline,pattern
+AI,AI Privacy,AI Privacy,mass surveillance,pattern
+AI,AI Privacy,AI Privacy,#masssurveillance,pattern
+AI,AI Workforce,AI Workforce,tech layoffs,pattern
+AI,AI Workforce,AI Workforce,#techlayoffs,pattern
+AI,AI Workforce,AI Workforce,automate,pattern
+AI,AI Workforce,AI Workforce,#automate,pattern
+AI,AI Workforce,AI Workforce,workforce,pattern
+AI,AI Workforce,AI Workforce,#workforce,pattern
+AI,AI Workforce,AI Workforce,upskilling,pattern
+AI,AI Workforce,AI Workforce,#upskilling,pattern
+Sustainability,Cocoa,Cocoa,cocoa,pattern
+Sustainability,Cocoa,Cocoa,#cocoa,pattern
+Sustainability,Cocoa,Cocoa,chocolate,pattern
+Sustainability,Cocoa,Cocoa,#chocolate,pattern
+Sustainability,Cocoa,Cocoa,chocolate products,pattern
+Sustainability,Cocoa,Cocoa,cocoa products,pattern
+Sustainability,Cocoa,Cocoa,sustainable cocoa,pattern
+Sustainability,Cocoa,Cocoa,cocoa sustainability,pattern
+Sustainability,Cocoa,Cocoa,Côte d’Ivoire,pattern
+Sustainability,Cocoa,Cocoa,Ghana,pattern
+Sustainability,Cocoa,Cocoa,#Ghana,pattern
+Sustainability,Cocoa,Cocoa,traceability,pattern
+Sustainability,Cocoa,Cocoa,#traceability,pattern
+Sustainability,Cocoa,Cocoa,responsible sourcing,pattern
+Sustainability,Cocoa,Cocoa,cocoa sourcing,pattern
+Sustainability,Cocoa,Cocoa,supply chain traceability,pattern
+Sustainability,Cocoa,Cocoa,corporation,pattern
+Sustainability,Cocoa,Cocoa,corporations,pattern
+Sustainability,Cocoa,Cocoa,corporate responsibility,pattern
+Sustainability,Cocoa,Cocoa,#corporation,pattern
+Sustainability,Cocoa,Cocoa,#corporations,pattern
+Sustainability,Cocoa,Cocoa,#chocolateproducts,pattern
+Sustainability,Cocoa,Cocoa,#cocoaproducts,pattern
+Sustainability,Cocoa,Cocoa,#sustainablecocoa,pattern
+Sustainability,Cocoa,Cocoa,#cocoasustainability,pattern
+Sustainability,Cocoa,Cocoa,#Côted’Ivoire,pattern
+Sustainability,Cocoa,Cocoa,#responsiblesourcing,pattern
+Sustainability,Cocoa,Cocoa,#cocoasourcing,pattern
+Sustainability,Cocoa,Cocoa,#supplychaintraceability,pattern
+Sustainability,Cocoa,Cocoa,#corporateresponsibility,pattern
+Sustainability,Supply Chain,Supply Chain,supply chain,pattern
+Sustainability,Supply Chain,Supply Chain,cocoa supply chain,pattern
+Sustainability,Supply Chain,Supply Chain,Côte d’Ivoire,pattern
+Sustainability,Supply Chain,Supply Chain,#Ghana,pattern
+Sustainability,Supply Chain,Supply Chain,Ghana,pattern
+Sustainability,Supply Chain,Supply Chain,supply chain traceability,pattern
+Sustainability,Supply Chain,Supply Chain,#supply chain traceability,pattern
+Sustainability,Supply Chain,Supply Chain,supplier sustainability,pattern
+Sustainability,Supply Chain,Supply Chain,cocoa due diligence,pattern
+Sustainability,Supply Chain,Supply Chain,child labor,pattern
+Sustainability,Supply Chain,Supply Chain,forced labor,pattern
+Sustainability,Supply Chain,Supply Chain,human trafficking,pattern
+Sustainability,Supply Chain,Supply Chain,freedom of association,pattern
+Sustainability,Supply Chain,Supply Chain,collective bargaining,pattern
+Sustainability,Supply Chain,Supply Chain,non-discrimination,pattern
+Sustainability,Supply Chain,Supply Chain,#non-discrimination,pattern
+Sustainability,Supply Chain,Supply Chain,harassment,pattern
+Sustainability,Supply Chain,Supply Chain,#harassment,pattern
+Sustainability,Supply Chain,Supply Chain,wages,pattern
+Sustainability,Supply Chain,Supply Chain,#wages,pattern
+Sustainability,Supply Chain,Supply Chain,working hours,pattern
+Sustainability,Supply Chain,Supply Chain,worker health and safety,pattern
+Sustainability,Supply Chain,Supply Chain,food safety and quality,pattern
+Sustainability,Supply Chain,Supply Chain,food safety,pattern
+Sustainability,Supply Chain,Supply Chain,food quality,pattern
+Sustainability,Supply Chain,Supply Chain,worker health,pattern
+Sustainability,Supply Chain,Supply Chain,worker safety,pattern
+Sustainability,Supply Chain,Supply Chain,worker benefits,pattern
+Sustainability,Supply Chain,Supply Chain,corporations,pattern
+Sustainability,Supply Chain,Supply Chain,#corporations,pattern
+Sustainability,Supply Chain,Supply Chain,corporation,pattern
+Sustainability,Supply Chain,Supply Chain,#corporation,pattern
+Sustainability,Supply Chain,Supply Chain,corporate responsibility,pattern
+Sustainability,Supply Chain,Supply Chain,#supplychain,pattern
+Sustainability,Supply Chain,Supply Chain,#cocoasupplychain,pattern
+Sustainability,Supply Chain,Supply Chain,#Côted’Ivoire,pattern
+Sustainability,Supply Chain,Supply Chain,#supplychaintraceability,pattern
+Sustainability,Supply Chain,Supply Chain,#suppliersustainability,pattern
+Sustainability,Supply Chain,Supply Chain,#cocoaduediligence,pattern
+Sustainability,Supply Chain,Supply Chain,#grievancemechanisms,pattern
+Sustainability,Supply Chain,Supply Chain,#childlabor,pattern
+Sustainability,Supply Chain,Supply Chain,#forcedlabor,pattern
+Sustainability,Supply Chain,Supply Chain,#humantrafficking,pattern
+Sustainability,Supply Chain,Supply Chain,#freedomofassociation,pattern
+Sustainability,Supply Chain,Supply Chain,#collectivebargaining,pattern
+Sustainability,Supply Chain,Supply Chain,#workinghours,pattern
+Sustainability,Supply Chain,Supply Chain,#workerhealthandsafety,pattern
+Sustainability,Supply Chain,Supply Chain,#foodsafetyandquality,pattern
+Sustainability,Supply Chain,Supply Chain,#foodsafety,pattern
+Sustainability,Supply Chain,Supply Chain,#foodquality,pattern
+Sustainability,Supply Chain,Supply Chain,#workerhealth,pattern
+Sustainability,Supply Chain,Supply Chain,#workersafety,pattern
+Sustainability,Supply Chain,Supply Chain,#workerbenefits,pattern
+Sustainability,Supply Chain,Supply Chain,#corporateresponsibility,pattern
+Sustainability,Supply Chain,Supply Chain,grievance mechanisms,pattern
+Crime & Safety,Anti-Corporate Populism,Anti-Corporate Populism,boycott,pattern
+Crime & Safety,Anti-Corporate Populism,Anti-Corporate Populism,protest,pattern
+Crime & Safety,Anti-Corporate Populism,Anti-Corporate Populism,looter,pattern
+Crime & Safety,Anti-Corporate Populism,Anti-Corporate Populism,looting,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,criminal justice reform,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,no knock warrant,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,black lives matter,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,criminal justice,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,police brutality,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,cop city,pattern
+Crime & Safety,Criminal Justice Reform,Criminal Justice Reform,public safety,pattern
+Crime & Safety,Gun Violence,Gun Violence,gun control,pattern
+Crime & Safety,Gun Violence,Gun Violence,gun violence,pattern
+Crime & Safety,Gun Violence,Gun Violence,gun buybacks,pattern
+Crime & Safety,Gun Violence,Gun Violence,weapon ban,pattern
+Crime & Safety,Gun Violence,Gun Violence,2nd amendment,pattern
+Crime & Safety,Gun Violence,Gun Violence,2nd amendment rights,pattern
+Crime & Safety,Gun Violence,Gun Violence,second amendment,pattern
+Crime & Safety,Gun Violence,Gun Violence,mass shooting,pattern
+Crime & Safety,Gun Violence,Gun Violence,school shooting,pattern
+Crime & Safety,Gun Violence,Gun Violence,gun restrictions,pattern
+Crime & Safety,Gun Violence,Gun Violence,gun rights,pattern
+Crime & Safety,Gun Violence,Gun Violence,gun safety,pattern
+Crime & Safety,Political Violence,Political Violence,political violence,pattern
+Crime & Safety,Political Violence,Political Violence,political extermism,pattern
+Crime & Safety,Political Violence,Political Violence,extremism,pattern
+Crime & Safety,Political Violence,Political Violence,right-wing extremism,pattern
+Crime & Safety,Political Violence,Political Violence,left-wing extremism,pattern
+Crime & Safety,Retail Theft,Retail Theft,retail theft,pattern
+Crime & Safety,Retail Theft,Retail Theft,employee safety,pattern
+Crime & Safety,Retail Theft,Retail Theft,store safety,pattern
+Crime & Safety,Retail Theft,Retail Theft,violent retail theft,pattern
+Crime & Safety,Retail Theft,Retail Theft,shoplifting,pattern
+Crime & Safety,Retail Theft,Retail Theft,shrinkage,pattern
+Crime & Safety,Retail Theft,Retail Theft,retail theft legislation,pattern
+Crime & Safety,Retail Theft,Retail Theft,CORCA,pattern
+Crime & Safety,Retail Theft,Retail Theft,store security,pattern
+Crime & Safety,Retail Theft,Retail Theft,organized retail theft,pattern
+Crime & Safety,Retail Theft,Retail Theft,retail crime,pattern
+Crime & Safety,Retail Theft,Retail Theft,return fraud,pattern
+Gender Equity,Childcare Access,Childcare Access,paid leave benefits,pattern
+Gender Equity,Childcare Access,Childcare Access,maternity leave,pattern
+Gender Equity,Childcare Access,Childcare Access,childcare access for workers,pattern
+Gender Equity,Childcare Access,Childcare Access,caregivers leaving the workforce,pattern
+Gender Equity,Childcare Access,Childcare Access,caregivers quitting jobs,pattern
+Gender Equity,Childcare Access,Childcare Access,paid maternal leave,pattern
+Gender Equity,Childcare Access,Childcare Access,paid paternal leave,pattern
+Gender Equity,Pay Equity,Pay Equity,pay equity,pattern
+Gender Equity,Pay Equity,Pay Equity,gender pay gap,pattern
+Gender Equity,Pay Equity,Pay Equity,pay transparency,pattern
+Gender Equity,Pay Equity,Pay Equity,women compensation,pattern
+Gender Equity,Pay Equity,Pay Equity,gender wage gap,pattern
+Gender Equity,RTO,RTO,return-to-office mandates,pattern
+Gender Equity,RTO,RTO,workplace flexibility,pattern
+Gender Equity,RTO,RTO,RTO policy,pattern
+Gender Equity,RTO,RTO,RTO mandate,pattern
+Gender Equity,RTO,RTO,return to office,pattern
+Gender Equity,RTO,RTO,work from home,pattern
+Gender Equity,Sexual Harassment,Sexual Harassment,workplace harassment,pattern
+Gender Equity,Sexual Harassment,Sexual Harassment,sexual harassment in the workplace,pattern
+Gender Equity,Sexual Harassment,Sexual Harassment,sex discrimination,pattern
+Gender Equity,Sexual Harassment,Sexual Harassment,Diddy,exclusionary term
+Gender Equity,Sexual Harassment,Sexual Harassment,Blake Lively,exclusionary term
+Gender Equity,Sexual Harassment,Sexual Harassment,Justin Baldoni,exclusionary term
+Gender Equity,Workforce Demographics,Workforce Demographics,women leaving the workforce,pattern
+Gender Equity,Workforce Demographics,Workforce Demographics,women in the workforce,pattern
+Gender Equity,Workforce Demographics,Workforce Demographics,women employees leaving,pattern
+Gender Equity,Workforce Demographics,Workforce Demographics,female employees leaving,pattern
+Gender Equity,Workforce Demographics,Workforce Demographics,women quitting jobs,pattern
+Gender Equity,Workforce Demographics,Workforce Demographics,mothers leaving the workforce,pattern
+Gender Equity,Workforce Demographics,Workforce Demographics,mothers quitting jobs,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,hate crime,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,slur,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,title ix,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,title nine,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,discrimination,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,EEOC,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,andrea lucas,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,homophobia,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,homophobic,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,transphobic,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,transphobia,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,homophobe,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,transphobe,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,equal employment,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,Bostock,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,religious exemption,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,religious discrimination,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,anti-gay,pattern
+LGBTQ+ Equality,Discrimination,Discrimination,anti gay,pattern
+LGBTQ+ Equality,General,General,#homophobia,pattern
+LGBTQ+ Equality,General,General,homophobia,pattern
+LGBTQ+ Equality,General,General,pride month,pattern
+LGBTQ+ Equality,General,General,#pridemonth,pattern
+LGBTQ+ Equality,General,General,rainbow washing,pattern
+LGBTQ+ Equality,General,General,#rainbowwashing,pattern
+LGBTQ+ Equality,General,General,lgbtq equality,pattern
+LGBTQ+ Equality,General,General,#lgbtqequality,pattern
+LGBTQ+ Equality,General,General,marriage equality,pattern
+LGBTQ+ Equality,General,General,#marriageequality,pattern
+LGBTQ+ Equality,General,General,dragshow bans,pattern
+LGBTQ+ Equality,General,General,#dragshowbans,pattern
+LGBTQ+ Equality,General,General,drag show ban,pattern
+LGBTQ+ Equality,General,General,#dragshowban,pattern
+LGBTQ+ Equality,General,General,bathroombill,pattern
+LGBTQ+ Equality,General,General,#bathroombill,pattern
+LGBTQ+ Equality,General,General,gender affirming care,pattern
+LGBTQ+ Equality,General,General,#genderaffirmingcare,pattern
+LGBTQ+ Equality,General,General,gender affirming care ban,pattern
+LGBTQ+ Equality,General,General,#genderaffirmingcareban,pattern
+LGBTQ+ Equality,General,General,lgbtq state legislation,pattern
+LGBTQ+ Equality,General,General,#lgbtqstatelegislation,pattern
+LGBTQ+ Equality,General,General,antitrans legislation,pattern
+LGBTQ+ Equality,General,General,#antitranslegislation,pattern
+LGBTQ+ Equality,General,General,pronoun ban,pattern
+LGBTQ+ Equality,General,General,#pronounban,pattern
+LGBTQ+ Equality,General,General,lgbtq book ban,pattern
+LGBTQ+ Equality,General,General,#lgbtqbookban,pattern
+LGBTQ+ Equality,General,General,lgbtq education ban,pattern
+LGBTQ+ Equality,General,General,#lgbtqeducationban,pattern
+LGBTQ+ Equality,General,General,sexual orientation education,pattern
+LGBTQ+ Equality,General,General,#sexualorientationeducation,pattern
+LGBTQ+ Equality,General,General,sexual censorship,pattern
+LGBTQ+ Equality,General,General,#sexualcensorship,pattern
+LGBTQ+ Equality,General,General,lgbtq woke,pattern
+LGBTQ+ Equality,General,General,#lgbtqwoke,pattern
+LGBTQ+ Equality,General,General,rfma,pattern
+LGBTQ+ Equality,General,General,#rfma,pattern
+LGBTQ+ Equality,General,General,#antitrans,pattern
+LGBTQ+ Equality,General,General,anti trans,pattern
+LGBTQ+ Equality,General,General,transgender bans,pattern
+LGBTQ+ Equality,General,General,#transgenderbans,pattern
+LGBTQ+ Equality,General,General,gender dysphoria,pattern
+LGBTQ+ Equality,General,General,#genderdysphoria,pattern
+LGBTQ+ Equality,General,General,detransition,pattern
+LGBTQ+ Equality,General,General,#detransition,pattern
+LGBTQ+ Equality,General,General,drag bans,pattern
+LGBTQ+ Equality,General,General,#dragbans,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,trans ban,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,transgender ban,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,bathroom ban,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,anti-discrimination,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,gender identity discrimination,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,sexual orientation discrimination,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,Obergefell,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,Title IX,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,religious exemption,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,legislation,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,laws,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,gender-affirming care ban,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,Supreme Court,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,SCOTUS,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,lawsuit,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,religious discrimination,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,drag ban,pattern
+LGBTQ+ Equality,Legislation & Litigation,Legislation & Litigation,wrongful termination,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,Pride Month,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,lgbtq+ pride,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,pride campaign,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,pride marketing,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,pride merchandise,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,pride merch,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,rainbow washing,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,pink washing,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,Pride parade,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,sponsorship,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,sponsor,pattern
+LGBTQ+ Equality,PRIDE,PRIDE,World Pride,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#lgbtqwokeism,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq woke,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#lgbtqcorporatewokeism,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#tuckfriendly,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,tuck friendly,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq wokeism,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq corporate wokeism,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,dylan mulvaney,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#dylanmulvaney,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,Target pride collection,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#targetpridecollection,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,rainbow capitalism,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#rainbowcapitalism,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,youth LGBTQ merchandise,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#youthlgbtqmerchandise,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,youthlgbtqclothing,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#youthlgbtqclothing,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,antitrans activists,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#antitransactivists,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#dragbans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,drag bans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,dragshowbans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#dragshowbans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#homophobia,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,homophobia,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,corporate lgbtq advocacy,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#corporatelgbtqadvocacy,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,pride month,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#pridemonth,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,rainbow washing,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#rainbowwashing,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq equality,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#lgbtqequality,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,marriage equality,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#marriageequality,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#dragshowban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,dragshow ban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,bathroom bill,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#bathroombill,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,gender affirming care,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#genderaffirmingcare,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,gender affirming care ban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#genderaffirmingcareban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq state legislation,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#lgbtqstatelegislation,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,antitranslegislation,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#antitranslegislation,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,pronoun ban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#pronounban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq book ban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#lgbtqbookban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,lgbtq education ban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#lgbtqeducationban,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,sexual orientation education,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#sexualorientationeducation,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,sexual censorship,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#sexualcensorship,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,rfma,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#rfma,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,antitrans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#antitrans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,trans bans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#transbans,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,pride campaigns,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#pridecampaigns,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,boycott Target,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#boycotttarget,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,#boycottbudlight,pattern
+LGBTQ+ Equality,Target Volatility Calculation,Target Volatility Calculation,boycott budlight,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,gender-affirming care,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,hormone treatment,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,puberty blockers,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,transition surgery,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,de-transition surgery,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,cross-sex hormones,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,transgender,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,sports participation,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,NAIA,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,NCAA,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,IOC,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,Athlete Ally,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,Save Women’s Sports,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,Concerned Women for America,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,Independent Women's Forum,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,biological sex,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,hormone therapy,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,transgender legislation,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,trans ban,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,bathroom bill,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,bathroom ban,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,gender dysphoria,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,pronouns,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,military policy,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,passport,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,Protect Children’s Innocence Act,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,anti-trans,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,anti trans,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,mtf,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,ftm,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,gender identity,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,transing,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,transphobe,pattern
+LGBTQ+ Equality,Transgender Issues,Transgender Issues,transphobic,pattern
+Racial Equity,Activist Action,Activist Action,woke,pattern
+Racial Equity,Activist Action,Activist Action,allegedly,pattern
+Racial Equity,Activist Action,Activist Action,company,pattern
+Racial Equity,Activist Action,Activist Action,boycott,pattern
+Racial Equity,Activist Action,Activist Action,protest,pattern
+Racial Equity,Administration Pressure,Administration Pressure,EEOC,pattern
+Racial Equity,Administration Pressure,Administration Pressure,#EEOC,pattern
+Racial Equity,Administration Pressure,Administration Pressure,anti-discrimination,pattern
+Racial Equity,Administration Pressure,Administration Pressure,DOJ,pattern
+Racial Equity,Administration Pressure,Administration Pressure,federal probe,pattern
+Racial Equity,Affirmative Action,Affirmative Action,affirmative action,pattern
+Racial Equity,Affirmative Action,Affirmative Action,#affirmativeaction,pattern
+Racial Equity,Critical Race Theory,Critical Race Theory,critical race theory,pattern
+Racial Equity,Critical Race Theory,Critical Race Theory,#criticalracetheory,pattern
+Racial Equity,Critical Race Theory,Critical Race Theory,CRT,pattern
+Racial Equity,Critical Race Theory,Critical Race Theory,#CRT,pattern
+Racial Equity,DEI,DEI,DEI,pattern
+Racial Equity,DEI,DEI,#DEI,pattern
+Racial Equity,DEI,DEI,diversity,pattern
+Racial Equity,DEI,DEI,#diversity,pattern
+Racial Equity,DEI,DEI,MBDA,pattern
+Racial Equity,DEI,DEI,#MBDA,pattern
+Racial Equity,DEI,DEI,Jeffrey Nuziard,pattern
+Racial Equity,DEI,DEI,Minority Business Development Agency,pattern
+Racial Equity,DEI,DEI,title vii,pattern
+Racial Equity,DEI,DEI,#titlevii,pattern
+Racial Equity,DEI,DEI,title vi,pattern
+Racial Equity,DEI,DEI,#titlevi,pattern
+Racial Equity,DEI,DEI,section 1981,pattern
+Racial Equity,DEI,DEI,#section1981,pattern
+Racial Equity,DEI,DEI,section 1981 of the civil rights act,pattern
+Racial Equity,DEI,DEI,#section1981ofthecivilrightsact,pattern
+Racial Equity,DEI,DEI,board diversity,pattern
+Racial Equity,DEI,DEI,MEI,pattern
+Racial Equity,DEI,DEI,chief diversity officer,pattern
+Racial Equity,DEI,DEI,chief belonging officer,pattern
+Racial Equity,DEI,DEI,inclusive workplace,pattern
+Racial Equity,DEI,DEI,inclusive workforce,pattern
+Racial Equity,General,General,Racial equity,pattern
+Racial Equity,General,General,#Racialequity,pattern
+Racial Equity,General,General,black lives matter,pattern
+Racial Equity,General,General,#blacklivesmatter,pattern
+Racial Equity,General,General,BLM,pattern
+Racial Equity,General,General,#BLM,pattern
+Racial Equity,General,General,DEI,pattern
+Racial Equity,General,General,#DEI,pattern
+Racial Equity,General,General,diversity,pattern
+Racial Equity,General,General,#diversity,pattern
+Racial Equity,General,General,critical race theory,pattern
+Racial Equity,General,General,#criticalracetheory,pattern
+Racial Equity,General,General,CRT,pattern
+Racial Equity,General,General,#CRT,pattern
+Racial Equity,General,General,racial justice,pattern
+Racial Equity,General,General,inclusion,pattern
+Racial Equity,General,General,belonging,pattern
+Racial Equity,General,General,inclusive environment,pattern
+Racial Equity,Supplier Diversity,Supplier Diversity,supplier diversity,pattern
+Racial Equity,Supplier Diversity,Supplier Diversity,minority suppliers,pattern
+Racial Equity,Supplier Diversity,Supplier Diversity,diverse suppliers,pattern
+Racial Equity,Supplier Diversity,Supplier Diversity,diverse supplier,pattern
+Racial Equity,Supplier Diversity,Supplier Diversity,diverse supply chains,pattern
+Racial Equity,Supplier Diversity,Supplier Diversity,diverse supply chain,pattern
+Religious & Political Diversity,Antisemitism,Antisemitism,antisemitism,pattern
+Religious & Political Diversity,Antisemitism,Antisemitism,antisemitic,pattern
+Religious & Political Diversity,Antisemitism,Antisemitism,jewish hate,pattern
+Religious & Political Diversity,Antisemitism,Antisemitism,jewish targeting,pattern
+Religious & Political Diversity,Antisemitism,Antisemitism,anti-Jewish,pattern
+Religious & Political Diversity,Antisemitism,Antisemitism,holocaust denial,pattern
+Religious & Political Diversity,Political Expression,Political Expression,corporate political engagement policy,pattern
+Religious & Political Diversity,Political Expression,Political Expression,political harassment,pattern
+Religious & Political Diversity,Political Expression,Political Expression,ideologically motivated harassment,pattern
+Religious & Political Diversity,Political Expression,Political Expression,political discrimination,pattern
+Religious & Political Diversity,Political Expression,Political Expression,viewpoint discrimination,pattern
+Religious & Political Diversity,Political Expression,Political Expression,hostile work environment,pattern
+Religious & Political Diversity,Political Expression,Political Expression,ideological discrimination,pattern
+Religious & Political Diversity,Political Expression,Political Expression,political expression,pattern
+Religious & Political Diversity,Political Expression,Political Expression,workplace expression,pattern
+Religious & Political Diversity,Political Expression,Political Expression,workplace conduct,pattern
+Religious & Political Diversity,Political Expression,Political Expression,dress code,pattern
+Religious & Political Diversity,Political Expression,Political Expression,online political expression,pattern
+Religious & Political Diversity,Political Expression,Political Expression,workplace advocacy,pattern
+Religious & Political Diversity,Political Expression,Political Expression,employee conduct,pattern
+Religious & Political Diversity,Political Expression,Political Expression,code of conduct,pattern
+Religious & Political Diversity,Political Expression,Political Expression,employee political post,pattern
+Religious & Political Diversity,Political Expression,Political Expression,workplace free speech,pattern
+Religious & Political Diversity,Political Expression,Political Expression,workplace freedom of expression,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,islamaphobia,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,religious discrimination,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#religiousdiscrimination,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,religious harassment,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#religiousharassment,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,religious targeting,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#religioustargeting,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,christian intolerance,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#christianintolerance,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,religious freedom,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#religiousfreedom,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#religiousrights,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,religious rights,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#islamaphobia,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,antisemitism,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#antisemitism,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,religious intolerance,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#religiousintolerance,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,boycott divestment sanction,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#boycottdivestmentsanction,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#BDS,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,BDS,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,antimuslim,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#antimuslim,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,antichristian,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#antichristian,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,antiislam,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#antiislam,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,antisemitic,pattern
+Religious & Political Diversity,Religious Discrimination,Religious Discrimination,#antisemitic,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious lawsuits,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,#religiouslawsuits,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious lawsuit,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religiouslawsuit,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious cases,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious case,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,sued for religion,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,sued for religious,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious discrimination case,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious discrimination suit,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious freedom,pattern
+Religious & Political Diversity,Religious Lawsuits,Religious Lawsuits,religious discrimination charge,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,#mifepristone,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,mifperistone,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,misoprostal,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,#misoprostal,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,abortion pill,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,#abortionpill,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,abortion pills,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,#abortionpills,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,medication abortion,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,mail-order abortion,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,mail abortion pills,pattern
+Reproductive Rights,Abortion Pills,Abortion Pills,out-of-state abortion,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,corporate abortion coverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,#corporateabortioncoverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,out-of-state coverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,#outofstatecoverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,employer abortion coverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,#employerabortioncoverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,abortion coverage,pattern
+Reproductive Rights,Employer Abortion Coverage,Employer Abortion Coverage,abortion insurance coverage,pattern
+Reproductive Rights,General,General,abortion rights,pattern
+Reproductive Rights,General,General,#abortionrights,pattern
+Reproductive Rights,General,General,abortion,pattern
+Reproductive Rights,General,General,#abortion,pattern
+Reproductive Rights,General,General,abortion access,pattern
+Reproductive Rights,General,General,#abortionaccess,pattern
+Reproductive Rights,General,General,roe v wade,pattern
+Reproductive Rights,General,General,#roevwade,pattern
+Reproductive Rights,General,General,roe vs wade,pattern
+Reproductive Rights,General,General,#roevswade,pattern
+Reproductive Rights,General,General,dobbs v jackson,pattern
+Reproductive Rights,General,General,#dobbsvjackson,pattern
+Reproductive Rights,General,General,#contraceptionaccess,pattern
+Reproductive Rights,General,General,contraception access,pattern
+Reproductive Rights,General,General,mifepristone,pattern
+Reproductive Rights,General,General,#mifepristone,pattern
+Reproductive Rights,General,General,abortion medication,pattern
+Reproductive Rights,General,General,#abortionmedication,pattern
+Reproductive Rights,General,General,reproductive rights,pattern
+Reproductive Rights,General,General,#reproductiverights,pattern
+Reproductive Rights,General,General,abortion pill,pattern
+Reproductive Rights,General,General,#abortionpill,pattern
+Reproductive Rights,General,General,dobbs decision,pattern
+Reproductive Rights,General,General,#dobbsdecision,pattern
+Reproductive Rights,General,General,IVF,pattern
+Reproductive Rights,General,General,misoprostol,pattern
+Reproductive Rights,General,General,#misoprostol,pattern
+Reproductive Rights,General,General,fetal personhood,pattern
+Reproductive Rights,General,General,#abortionisahumanright,pattern
+Reproductive Rights,General,General,#abortionishealthcare,pattern
+Reproductive Rights,General,General,#prochoice,pattern
+Reproductive Rights,General,General,#prolife,pattern
+Reproductive Rights,General,General,#mybodymychoice,pattern
+Reproductive Rights,General,General,abortion pills,pattern
+Reproductive Rights,General,General,#marchforlife,pattern
+Reproductive Rights,General,General,pro choice,pattern
+Reproductive Rights,General,General,reproductive justice,pattern
+Reproductive Rights,General,General,IVF access,pattern
+Reproductive Rights,General,General,sexual health,pattern
+Reproductive Rights,General,General,reproductive health,pattern
+Reproductive Rights,General,General,oral contraceptives,pattern
+Reproductive Rights,IVF,IVF,IVF,pattern
+Reproductive Rights,IVF,IVF,in vitro fertilization,pattern
+Reproductive Rights,IVF,IVF,in vitro,pattern
+Reproductive Rights,IVF,IVF,frozen embryo,pattern
+Reproductive Rights,IVF,IVF,frozen embryos,pattern
+Reproductive Rights,IVF,IVF,Trump IVF,pattern
+Reproductive Rights,IVF,IVF,IVF Executive Order,pattern
+Reproductive Rights,IVF,IVF,IVF access,pattern
+Reproductive Rights,Legislation,Legislation,abortion state ban,pattern
+Reproductive Rights,Legislation,Legislation,#abortionstateban,pattern
+Reproductive Rights,Legislation,Legislation,#6weekban,pattern
+Reproductive Rights,Legislation,Legislation,6 week ban,pattern
+Reproductive Rights,Legislation,Legislation,restrict abortion,pattern
+Reproductive Rights,Legislation,Legislation,#restrictabortion,pattern
+Reproductive Rights,Legislation,Legislation,#contraceptiveban,pattern
+Reproductive Rights,Legislation,Legislation,roe vs wade,pattern
+Reproductive Rights,Legislation,Legislation,#roevwade,pattern
+Reproductive Rights,Legislation,Legislation,roe v wade,pattern
+Reproductive Rights,Legislation,Legislation,dobbs vs jackson,pattern
+Reproductive Rights,Legislation,Legislation,dobbs v jackson,pattern
+Reproductive Rights,Legislation,Legislation,#dobbsvjackson,pattern
+Reproductive Rights,Legislation,Legislation,shield law,pattern
+Reproductive Rights,Legislation,Legislation,near-total abortion ban,pattern
+Reproductive Rights,Legislation,Legislation,mifepristone restrictions,pattern
+Reproductive Rights,Legislation,Legislation,abortion bill,pattern
+Reproductive Rights,Legislation,Legislation,abortion law,pattern
+Reproductive Rights,Legislation,Legislation,medical exceptions to abortion,pattern
+Reproductive Rights,Legislation,Legislation,EMTALA,pattern
+Reproductive Rights,Legislation,Legislation,Emergency Medicl Treatment and Labor Act,pattern
+Reproductive Rights,Legislation,Legislation,abortion sheild law,pattern
+Reproductive Rights,Legislation,Legislation,criminalize abortion,pattern
+Reproductive Rights,Mifepristone,Mifepristone,FDA,pattern
+Reproductive Rights,Mifepristone,Mifepristone,mifepristone,pattern
+Reproductive Rights,Mifepristone,Mifepristone,mife,pattern
+Reproductive Rights,Mifepristone,Mifepristone,abortion pill,pattern
+Reproductive Rights,Mifepristone,Mifepristone,abortion pills,pattern
+Reproductive Rights,Mifepristone,Mifepristone,abortion medication,pattern
+Reproductive Rights,Mifepristone,Mifepristone,FDA approved,pattern
+Reproductive Rights,Mifepristone,Mifepristone,generic abortion pill,pattern
+Reproductive Rights,Mifepristone,Mifepristone,medication abortion,pattern
+Reproductive Rights,Mifepristone,Mifepristone,attacks on mifepristone,pattern
+Reproductive Rights,SCOTUS,SCOTUS,SCOTUS,pattern
+Reproductive Rights,SCOTUS,SCOTUS,Supreme Court,pattern
+Reproductive Rights,SCOTUS,SCOTUS,EMTALA,pattern
+Reproductive Rights,SCOTUS,SCOTUS,Emergency Medical Treatment and Active Labor Act,pattern
+Reproductive Rights,SCOTUS,SCOTUS,Defense of Life Act,pattern
+Tech,Content Moderation,Content Moderation,content moderation,pattern
+Tech,Content Moderation,Content Moderation,disinformation,pattern
+Tech,Content Moderation,Content Moderation,hate speech,pattern
+Tech,Content Moderation,Content Moderation,censor,pattern
+Tech,Content Moderation,Content Moderation,censorship,pattern
+Tech,Content Moderation,Content Moderation,#contentmoderation,pattern
+Tech,Content Moderation,Content Moderation,#disinformation,pattern
+Tech,Content Moderation,Content Moderation,#hatespeech,pattern
+Tech,Content Moderation,Content Moderation,#censorship,pattern
+Tech,Content Moderation,Content Moderation,algorithmic suppression,pattern
+Tech,Content Moderation,Content Moderation,deplatforming,pattern
+Tech,Content Moderation,Content Moderation,Section 230,pattern
+Tech,Content Moderation,Content Moderation,Common Decency Act,pattern
+Tech,Content Moderation,Content Moderation,anti-conservative bias,pattern
+Tech,Content Moderation,Content Moderation,autonomous vehicles,pattern
+Tech,Content Moderation,Content Moderation,#autonomousvehicles,pattern
+Tech,Content Moderation,Content Moderation,AVs,pattern
+Tech,Content Moderation,Content Moderation,#AVs,pattern
+Tech,Content Moderation,Content Moderation,minsinformation,pattern
+Tech,Content Moderation,Content Moderation,#misinformation,pattern
+Tech,Data Privacy,Data Privacy,data privacy,pattern
+Tech,Data Privacy,Data Privacy,#dataprivacy,pattern
+Tech,Data Privacy,Data Privacy,Children’s Online Privacy Protection Act,pattern
+Tech,Data Privacy,Data Privacy,COPPA,pattern
+Tech,Data Privacy,Data Privacy,parental consent,pattern
+Tech,Data Privacy,Data Privacy,digital privacy,pattern
+Tech,Data Privacy,Data Privacy,parental controls,pattern
+Tech,Data Privacy,Data Privacy,children's privacy,pattern
+Tech,Data Privacy,Data Privacy,kid's privacy,pattern
+Tech,Data Privacy,Data Privacy,privacy violations,pattern
+Tech,Data Privacy,Data Privacy,privacy protections,pattern
+Tech,Data Privacy,Data Privacy,online privacy,pattern
+Tech,Data Privacy,Data Privacy,#KidsOnlineSafetyAct,pattern
+Tech,Data Privacy,Data Privacy,kid's online safety act,pattern
+Tech,Data Privacy,Data Privacy,KOSA,pattern
+Tech,Data Privacy,Data Privacy,#KOSA,pattern
+Tech,Data Privacy,Data Privacy,age verification,pattern
+Tech,Data Privacy,Data Privacy,#ageverification,pattern
+Tech,UK,UK,UK,pattern
+Tech,UK,UK,#UK,pattern
+Tech,UK,UK,United Kingdom,pattern
+Tech,UK,UK,united kingdom,pattern
+Tech,UK,UK,uk,pattern
+Tech,UK,UK,#uk,pattern
+Tech,UK,UK,#unitedkingdom,pattern
+Tech,UK,UK,#Unitedkingdom,pattern
+Workers' Rights,Child Labor,Child Labor,child labor,pattern
+Workers' Rights,Child Labor,Child Labor,migrant child labor,pattern
+Workers' Rights,International Union Activity,International Union Activity,Unison,pattern
+Workers' Rights,International Union Activity,International Union Activity,GMB,pattern
+Workers' Rights,International Union Activity,International Union Activity,Union of Shop Distributive & Allied Workers,pattern
+Workers' Rights,International Union Activity,International Union Activity,Service Employees International Union,pattern
+Workers' Rights,International Union Activity,International Union Activity,App Drivers & Couriers Union,pattern
+Workers' Rights,International Union Activity,International Union Activity,Industrial Workers of the World,pattern
+Workers' Rights,International Union Activity,International Union Activity,Unite the Union,pattern
+Workers' Rights,International Union Activity,International Union Activity,IG Metal,pattern
+Workers' Rights,International Union Activity,International Union Activity,IGM,pattern
+Workers' Rights,International Union Activity,International Union Activity,IG Bergbau Chemie Energie,pattern
+Workers' Rights,International Union Activity,International Union Activity,IG BCE,pattern
+Workers' Rights,International Union Activity,International Union Activity,Swedish Union for Service & Communication Employees,pattern
+Workers' Rights,International Union Activity,International Union Activity,Swedish Transport Workers' Union,pattern
+Workers' Rights,International Union Activity,International Union Activity,Swedish Hotel & Restaurant Workers' Union,pattern
+Workers' Rights,International Union Activity,International Union Activity,IF Metal,pattern
+Workers' Rights,International Union Activity,International Union Activity,Swedish Food Workers' Union,pattern
+Workers' Rights,International Union Activity,International Union Activity,Confederation of Trade Unions,pattern
+Workers' Rights,International Union Activity,International Union Activity,International Trade Union Confederation,pattern
+Workers' Rights,International Union Activity,International Union Activity,Confederation francaise democratique du travail,pattern
+Workers' Rights,International Union Activity,International Union Activity,CFDT,pattern
+Workers' Rights,International Union Activity,International Union Activity,Force ouvriere,pattern
+Workers' Rights,International Union Activity,International Union Activity,General Confederation of Greek Workers,pattern
+Workers' Rights,Return to Office (RTO),Return to Office (RTO),Return to Office,pattern
+Workers' Rights,Return to Office (RTO),Return to Office (RTO),RTO,pattern
+Workers' Rights,Return to Office (RTO),Return to Office (RTO),Work from Home,pattern
+Workers' Rights,Return to Office (RTO),Return to Office (RTO),WFH,pattern
+Workers' Rights,Unions,Unions,union,pattern
+Workers' Rights,Unions,Unions,UAW,pattern
+Workers' Rights,Unions,Unions,Teamsters,pattern
+Workers' Rights,Unions,Unions,SAG,pattern
+Workers' Rights,Unions,Unions,SAG-Aftra,pattern
+Workers' Rights,Unions,Unions,Writers Guild of America Leaders,pattern
+Workers' Rights,Worker Rights,Worker Rights,unionization,pattern
+Workers' Rights,Worker Rights,Worker Rights,unions,pattern
+Workers' Rights,Worker Rights,Worker Rights,#unionization,pattern
+Workers' Rights,Worker Rights,Worker Rights,union busting,pattern
+Workers' Rights,Worker Rights,Worker Rights,#unionbusting,pattern
+Workers' Rights,Worker Rights,Worker Rights,layoffs,pattern
+Workers' Rights,Worker Rights,Worker Rights,#layoffs,pattern
+Workers' Rights,Worker Rights,Worker Rights,returntooffice,pattern
+Workers' Rights,Worker Rights,Worker Rights,#returntooffice,pattern
+Workers' Rights,Worker Rights,Worker Rights,#childlabor,pattern
+Workers' Rights,Worker Rights,Worker Rights,childlabor,pattern
+Workers' Rights,Worker Rights,Worker Rights,#illegallabor,pattern
+Workers' Rights,Worker Rights,Worker Rights,illegal labor,pattern
+Workers' Rights,Worker Rights,Worker Rights,collective action,pattern
+Workers' Rights,Worker Rights,Worker Rights,#collectiveaction,pattern
+Workers' Rights,Worker Rights,Worker Rights,#gigworkers,pattern
+Workers' Rights,Worker Rights,Worker Rights,gigworkers,pattern
+Workers' Rights,Worker Rights,Worker Rights,migrant labor,pattern
+Workers' Rights,Worker Rights,Worker Rights,#migrantlabor,pattern
+Workers' Rights,Worker Rights,Worker Rights,#childmigrantlabor,pattern
+Workers' Rights,Worker Rights,Worker Rights,child migrant labor,pattern
+Workers' Rights,Worker Rights,Worker Rights,layoff backlash,pattern
+Workers' Rights,Worker Rights,Worker Rights,#layoffbacklash,pattern
+Workers' Rights,Worker Rights,Worker Rights,labor strike,pattern
+Workers' Rights,Worker Rights,Worker Rights,#laborstrike,pattern

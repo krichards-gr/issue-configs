@@ -99,7 +99,8 @@ def generate_topics_json():
             if topic_label not in topics_dict:
                 topics_dict[topic_label] = {
                     "label": topic_label,
-                    "issue_area": issue_area, # New metadata field
+                    "issue_area": issue_area,
+                    "issue_subtopic": row.get('issue_subtopic', 'Unknown'),
                     "patterns": [],
                     "anchors": [],
                     "exclusions": []
@@ -127,7 +128,16 @@ def generate_topics_json():
     except Exception as e:
         print(f"Error during JSON generation: {e}")
 
-if __name__ == "__main__":
-    # If run as a script, perform both steps
+def generate_all():
+    """
+    Orchestrates the full generation pipeline:
+    1. Raw Inputs -> Intermediate CSV
+    2. Intermediate CSV -> Topics JSON
+    """
     if transform_raw_inputs():
         generate_topics_json()
+    else:
+        print("Skipping JSON generation due to transformation failure.")
+
+if __name__ == "__main__":
+    generate_all()

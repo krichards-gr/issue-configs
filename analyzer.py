@@ -4,12 +4,12 @@ from sentence_transformers import SentenceTransformer, util
 import os
 import sys
 import torch
-from generate_topics import generate_topics_json
+from generate_topics import generate_all
 
 class IssueAnalyzer:
     def __init__(self, topics_file='topics.json', similarity_threshold=0.7, nlp_model="en_core_web_sm", embedding_model="all-MiniLM-L6-v2"):
         # Always regenerate topics.json to ensure latest configs are used
-        generate_topics_json()
+        generate_all()
         
         self.topics_file = topics_file
         self.similarity_threshold = similarity_threshold
@@ -35,6 +35,7 @@ class IssueAnalyzer:
 
         self.exclusions_map = {t['label']: t.get('exclusions', []) for t in self.topics_data}
         self.issue_area_map = {t['label']: t.get('issue_area', 'Unknown') for t in self.topics_data}
+        self.issue_subtopic_map = {t['label']: t.get('issue_subtopic', 'Unknown') for t in self.topics_data}
 
         # Prepare spaCy Matcher
         from spacy.matcher import Matcher
@@ -94,7 +95,8 @@ class IssueAnalyzer:
             if not is_excluded:
                 results.append({
                     "topic": topic,
-                    "issue_area": self.issue_area_map.get(topic, "Unknown")
+                    "issue_area": self.issue_area_map.get(topic, "Unknown"),
+                    "issue_subtopic": self.issue_subtopic_map.get(topic, "Unknown")
                 })
                 
         return results

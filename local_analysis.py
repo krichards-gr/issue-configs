@@ -29,7 +29,7 @@ def run_demo():
             print("  - No topics detected.")
         else:
             for d in detected:
-                print(f"  [RESULT] Detected Topic: '{d['topic']}' (Area: {d['issue_area']})")
+                print(f"  [RESULT] Detected Topic: '{d['topic']}' (Area: {d['issue_area']}, Subtopic: {d['issue_subtopic']})")
         
         print("-" * 40)
 
