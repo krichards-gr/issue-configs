@@ -9,19 +9,21 @@ from generate_topics import generate_all
 class IssueAnalyzer:
     def __init__(self, topics_file='topics.json', similarity_threshold=0.7, nlp_model="en_core_web_sm", embedding_model="all-MiniLM-L6-v2"):
         # Always regenerate topics.json to ensure latest configs are used
-        generate_all()
-        
+        # generate_all(from_raw=True)
+
         self.topics_file = topics_file
         self.similarity_threshold = similarity_threshold
-        
+
         print(f"Loading models ({nlp_model}, {embedding_model})...")
         try:
-            self.nlp = spacy.load(nlp_model)
+            # MEMORY OPTIMIZATION: Disable unused spaCy components to reduce memory
+            # Only keep tokenizer and basic attributes needed for matcher
+            self.nlp = spacy.load(nlp_model, disable=["parser", "ner"])
             self.embedder = SentenceTransformer(embedding_model)
         except Exception as e:
             print(f"ERROR: Could not load models: {e}")
             sys.exit(1)
-            
+
         self.load_config()
 
     def load_config(self):
@@ -48,7 +50,7 @@ class IssueAnalyzer:
 
         # Pre-compute embeddings for all anchor terms
         self.all_anchors_text = []
-        self.anchor_metadata = [] 
+        self.anchor_metadata = []
         for topic in self.topics_data:
             for anchor in topic.get('anchors', []):
                 self.all_anchors_text.append(anchor)
@@ -63,9 +65,9 @@ class IssueAnalyzer:
     def analyze_text(self, text):
         if not isinstance(text, str) or not text.strip():
             return []
-            
+
         doc = self.nlp(text)
-        
+
         # 1. spaCy Matcher (Exact Patterns)
         matches = self.matcher(doc)
         found_topics = set()
@@ -76,7 +78,7 @@ class IssueAnalyzer:
         if self.anchor_embeddings is not None:
             query_embedding = self.embedder.encode(text, convert_to_tensor=True)
             cos_scores = util.cos_sim(query_embedding, self.anchor_embeddings)[0]
-            
+
             for idx, score in enumerate(cos_scores):
                 if score.item() >= self.similarity_threshold:
                     topic_label = self.anchor_metadata[idx][0]
@@ -91,12 +93,12 @@ class IssueAnalyzer:
                 if ext.lower() in text.lower():
                     is_excluded = True
                     break
-            
+
             if not is_excluded:
                 results.append({
                     "topic": topic,
                     "issue_area": self.issue_area_map.get(topic, "Unknown"),
                     "issue_subtopic": self.issue_subtopic_map.get(topic, "Unknown")
                 })
-                
+
         return results

@@ -1416,7 +1416,7 @@
             "LOWER": "c\u00f4te"
           },
           {
-            "LOWER": "d\u2019ivoire"
+            "LOWER": "d\u0092ivoire"
           }
         ],
         [
@@ -1516,7 +1516,7 @@
         ],
         [
           {
-            "LOWER": "#c\u00f4ted\u2019ivoire"
+            "LOWER": "#c\u00f4ted\u0092ivoire"
           }
         ],
         [
@@ -1572,7 +1572,7 @@
             "LOWER": "c\u00f4te"
           },
           {
-            "LOWER": "d\u2019ivoire"
+            "LOWER": "d\u0092ivoire"
           }
         ],
         [
@@ -1815,7 +1815,7 @@
         ],
         [
           {
-            "LOWER": "#c\u00f4ted\u2019ivoire"
+            "LOWER": "#c\u00f4ted\u0092ivoire"
           }
         ],
         [
@@ -2759,9 +2759,9 @@
       "exclusions": []
     },
     {
-      "label": "General LGBTQ+",
+      "label": "General",
       "issue_area": "LGBTQ+ Equality",
-      "issue_subtopic": "General LGBTQ+",
+      "issue_subtopic": "General",
       "patterns": [
         [
           {
@@ -3085,6 +3085,385 @@
         [
           {
             "LOWER": "#dragbans"
+          }
+        ],
+        [
+          {
+            "LOWER": "racial"
+          },
+          {
+            "LOWER": "equity"
+          }
+        ],
+        [
+          {
+            "LOWER": "#racialequity"
+          }
+        ],
+        [
+          {
+            "LOWER": "black"
+          },
+          {
+            "LOWER": "lives"
+          },
+          {
+            "LOWER": "matter"
+          }
+        ],
+        [
+          {
+            "LOWER": "#blacklivesmatter"
+          }
+        ],
+        [
+          {
+            "LOWER": "blm"
+          }
+        ],
+        [
+          {
+            "LOWER": "#blm"
+          }
+        ],
+        [
+          {
+            "LOWER": "dei"
+          }
+        ],
+        [
+          {
+            "LOWER": "#dei"
+          }
+        ],
+        [
+          {
+            "LOWER": "diversity"
+          }
+        ],
+        [
+          {
+            "LOWER": "#diversity"
+          }
+        ],
+        [
+          {
+            "LOWER": "critical"
+          },
+          {
+            "LOWER": "race"
+          },
+          {
+            "LOWER": "theory"
+          }
+        ],
+        [
+          {
+            "LOWER": "#criticalracetheory"
+          }
+        ],
+        [
+          {
+            "LOWER": "crt"
+          }
+        ],
+        [
+          {
+            "LOWER": "#crt"
+          }
+        ],
+        [
+          {
+            "LOWER": "racial"
+          },
+          {
+            "LOWER": "justice"
+          }
+        ],
+        [
+          {
+            "LOWER": "inclusion"
+          }
+        ],
+        [
+          {
+            "LOWER": "belonging"
+          }
+        ],
+        [
+          {
+            "LOWER": "inclusive"
+          },
+          {
+            "LOWER": "environment"
+          }
+        ],
+        [
+          {
+            "LOWER": "abortion"
+          },
+          {
+            "LOWER": "rights"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortionrights"
+          }
+        ],
+        [
+          {
+            "LOWER": "abortion"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortion"
+          }
+        ],
+        [
+          {
+            "LOWER": "abortion"
+          },
+          {
+            "LOWER": "access"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortionaccess"
+          }
+        ],
+        [
+          {
+            "LOWER": "roe"
+          },
+          {
+            "LOWER": "v"
+          },
+          {
+            "LOWER": "wade"
+          }
+        ],
+        [
+          {
+            "LOWER": "#roevwade"
+          }
+        ],
+        [
+          {
+            "LOWER": "roe"
+          },
+          {
+            "LOWER": "vs"
+          },
+          {
+            "LOWER": "wade"
+          }
+        ],
+        [
+          {
+            "LOWER": "#roevswade"
+          }
+        ],
+        [
+          {
+            "LOWER": "dobbs"
+          },
+          {
+            "LOWER": "v"
+          },
+          {
+            "LOWER": "jackson"
+          }
+        ],
+        [
+          {
+            "LOWER": "#dobbsvjackson"
+          }
+        ],
+        [
+          {
+            "LOWER": "#contraceptionaccess"
+          }
+        ],
+        [
+          {
+            "LOWER": "contraception"
+          },
+          {
+            "LOWER": "access"
+          }
+        ],
+        [
+          {
+            "LOWER": "mifepristone"
+          }
+        ],
+        [
+          {
+            "LOWER": "#mifepristone"
+          }
+        ],
+        [
+          {
+            "LOWER": "abortion"
+          },
+          {
+            "LOWER": "medication"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortionmedication"
+          }
+        ],
+        [
+          {
+            "LOWER": "reproductive"
+          },
+          {
+            "LOWER": "rights"
+          }
+        ],
+        [
+          {
+            "LOWER": "#reproductiverights"
+          }
+        ],
+        [
+          {
+            "LOWER": "abortion"
+          },
+          {
+            "LOWER": "pill"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortionpill"
+          }
+        ],
+        [
+          {
+            "LOWER": "dobbs"
+          },
+          {
+            "LOWER": "decision"
+          }
+        ],
+        [
+          {
+            "LOWER": "#dobbsdecision"
+          }
+        ],
+        [
+          {
+            "LOWER": "ivf"
+          }
+        ],
+        [
+          {
+            "LOWER": "misoprostol"
+          }
+        ],
+        [
+          {
+            "LOWER": "#misoprostol"
+          }
+        ],
+        [
+          {
+            "LOWER": "fetal"
+          },
+          {
+            "LOWER": "personhood"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortionisahumanright"
+          }
+        ],
+        [
+          {
+            "LOWER": "#abortionishealthcare"
+          }
+        ],
+        [
+          {
+            "LOWER": "#prochoice"
+          }
+        ],
+        [
+          {
+            "LOWER": "#prolife"
+          }
+        ],
+        [
+          {
+            "LOWER": "#mybodymychoice"
+          }
+        ],
+        [
+          {
+            "LOWER": "abortion"
+          },
+          {
+            "LOWER": "pills"
+          }
+        ],
+        [
+          {
+            "LOWER": "#marchforlife"
+          }
+        ],
+        [
+          {
+            "LOWER": "pro"
+          },
+          {
+            "LOWER": "choice"
+          }
+        ],
+        [
+          {
+            "LOWER": "reproductive"
+          },
+          {
+            "LOWER": "justice"
+          }
+        ],
+        [
+          {
+            "LOWER": "ivf"
+          },
+          {
+            "LOWER": "access"
+          }
+        ],
+        [
+          {
+            "LOWER": "sexual"
+          },
+          {
+            "LOWER": "health"
+          }
+        ],
+        [
+          {
+            "LOWER": "reproductive"
+          },
+          {
+            "LOWER": "health"
+          }
+        ],
+        [
+          {
+            "LOWER": "oral"
+          },
+          {
+            "LOWER": "contraceptives"
           }
         ]
       ],
@@ -3902,7 +4281,7 @@
             "LOWER": "save"
           },
           {
-            "LOWER": "women\u2019s"
+            "LOWER": "women\u0092s"
           },
           {
             "LOWER": "sports"
@@ -4012,7 +4391,7 @@
             "LOWER": "protect"
           },
           {
-            "LOWER": "children\u2019s"
+            "LOWER": "children\u0092s"
           },
           {
             "LOWER": "innocence"
@@ -4372,126 +4751,6 @@
           },
           {
             "LOWER": "workforce"
-          }
-        ]
-      ],
-      "anchors": [],
-      "exclusions": []
-    },
-    {
-      "label": "General Racial Equity",
-      "issue_area": "Racial Equity",
-      "issue_subtopic": "General Racial Equity",
-      "patterns": [
-        [
-          {
-            "LOWER": "racial"
-          },
-          {
-            "LOWER": "equity"
-          }
-        ],
-        [
-          {
-            "LOWER": "#racialequity"
-          }
-        ],
-        [
-          {
-            "LOWER": "black"
-          },
-          {
-            "LOWER": "lives"
-          },
-          {
-            "LOWER": "matter"
-          }
-        ],
-        [
-          {
-            "LOWER": "#blacklivesmatter"
-          }
-        ],
-        [
-          {
-            "LOWER": "blm"
-          }
-        ],
-        [
-          {
-            "LOWER": "#blm"
-          }
-        ],
-        [
-          {
-            "LOWER": "dei"
-          }
-        ],
-        [
-          {
-            "LOWER": "#dei"
-          }
-        ],
-        [
-          {
-            "LOWER": "diversity"
-          }
-        ],
-        [
-          {
-            "LOWER": "#diversity"
-          }
-        ],
-        [
-          {
-            "LOWER": "critical"
-          },
-          {
-            "LOWER": "race"
-          },
-          {
-            "LOWER": "theory"
-          }
-        ],
-        [
-          {
-            "LOWER": "#criticalracetheory"
-          }
-        ],
-        [
-          {
-            "LOWER": "crt"
-          }
-        ],
-        [
-          {
-            "LOWER": "#crt"
-          }
-        ],
-        [
-          {
-            "LOWER": "racial"
-          },
-          {
-            "LOWER": "justice"
-          }
-        ],
-        [
-          {
-            "LOWER": "inclusion"
-          }
-        ],
-        [
-          {
-            "LOWER": "belonging"
-          }
-        ],
-        [
-          {
-            "LOWER": "inclusive"
-          },
-          {
-            "LOWER": "environment"
           }
         ]
       ],
@@ -5256,283 +5515,6 @@
       "exclusions": []
     },
     {
-      "label": "General Reproductive Rights",
-      "issue_area": "Reproductive Rights",
-      "issue_subtopic": "General Reproductive Rights",
-      "patterns": [
-        [
-          {
-            "LOWER": "abortion"
-          },
-          {
-            "LOWER": "rights"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortionrights"
-          }
-        ],
-        [
-          {
-            "LOWER": "abortion"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortion"
-          }
-        ],
-        [
-          {
-            "LOWER": "abortion"
-          },
-          {
-            "LOWER": "access"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortionaccess"
-          }
-        ],
-        [
-          {
-            "LOWER": "roe"
-          },
-          {
-            "LOWER": "v"
-          },
-          {
-            "LOWER": "wade"
-          }
-        ],
-        [
-          {
-            "LOWER": "#roevwade"
-          }
-        ],
-        [
-          {
-            "LOWER": "roe"
-          },
-          {
-            "LOWER": "vs"
-          },
-          {
-            "LOWER": "wade"
-          }
-        ],
-        [
-          {
-            "LOWER": "#roevswade"
-          }
-        ],
-        [
-          {
-            "LOWER": "dobbs"
-          },
-          {
-            "LOWER": "v"
-          },
-          {
-            "LOWER": "jackson"
-          }
-        ],
-        [
-          {
-            "LOWER": "#dobbsvjackson"
-          }
-        ],
-        [
-          {
-            "LOWER": "#contraceptionaccess"
-          }
-        ],
-        [
-          {
-            "LOWER": "contraception"
-          },
-          {
-            "LOWER": "access"
-          }
-        ],
-        [
-          {
-            "LOWER": "mifepristone"
-          }
-        ],
-        [
-          {
-            "LOWER": "#mifepristone"
-          }
-        ],
-        [
-          {
-            "LOWER": "abortion"
-          },
-          {
-            "LOWER": "medication"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortionmedication"
-          }
-        ],
-        [
-          {
-            "LOWER": "reproductive"
-          },
-          {
-            "LOWER": "rights"
-          }
-        ],
-        [
-          {
-            "LOWER": "#reproductiverights"
-          }
-        ],
-        [
-          {
-            "LOWER": "abortion"
-          },
-          {
-            "LOWER": "pill"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortionpill"
-          }
-        ],
-        [
-          {
-            "LOWER": "dobbs"
-          },
-          {
-            "LOWER": "decision"
-          }
-        ],
-        [
-          {
-            "LOWER": "#dobbsdecision"
-          }
-        ],
-        [
-          {
-            "LOWER": "ivf"
-          }
-        ],
-        [
-          {
-            "LOWER": "misoprostol"
-          }
-        ],
-        [
-          {
-            "LOWER": "#misoprostol"
-          }
-        ],
-        [
-          {
-            "LOWER": "fetal"
-          },
-          {
-            "LOWER": "personhood"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortionisahumanright"
-          }
-        ],
-        [
-          {
-            "LOWER": "#abortionishealthcare"
-          }
-        ],
-        [
-          {
-            "LOWER": "#prochoice"
-          }
-        ],
-        [
-          {
-            "LOWER": "#prolife"
-          }
-        ],
-        [
-          {
-            "LOWER": "#mybodymychoice"
-          }
-        ],
-        [
-          {
-            "LOWER": "abortion"
-          },
-          {
-            "LOWER": "pills"
-          }
-        ],
-        [
-          {
-            "LOWER": "#marchforlife"
-          }
-        ],
-        [
-          {
-            "LOWER": "pro"
-          },
-          {
-            "LOWER": "choice"
-          }
-        ],
-        [
-          {
-            "LOWER": "reproductive"
-          },
-          {
-            "LOWER": "justice"
-          }
-        ],
-        [
-          {
-            "LOWER": "ivf"
-          },
-          {
-            "LOWER": "access"
-          }
-        ],
-        [
-          {
-            "LOWER": "sexual"
-          },
-          {
-            "LOWER": "health"
-          }
-        ],
-        [
-          {
-            "LOWER": "reproductive"
-          },
-          {
-            "LOWER": "health"
-          }
-        ],
-        [
-          {
-            "LOWER": "oral"
-          },
-          {
-            "LOWER": "contraceptives"
-          }
-        ]
-      ],
-      "anchors": [],
-      "exclusions": []
-    },
-    {
       "label": "IVF",
       "issue_area": "Reproductive Rights",
       "issue_subtopic": "IVF",
@@ -6125,7 +6107,7 @@
         ],
         [
           {
-            "LOWER": "children\u2019s"
+            "LOWER": "children\u0092s"
           },
           {
             "LOWER": "online"

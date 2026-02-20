@@ -20,9 +20,13 @@ def transform_raw_inputs():
         return False
 
     try:
-        # Read raw inputs
-        # Expecting cols: issue_area, issue_subtopic, pattern, exclusionary_term, anchor_phrases
-        df = pd.read_csv(RAW_INPUTS_FILE)
+        # Read raw inputs with proper encoding handling
+        # Try UTF-8 first, fallback to latin-1 for special characters
+        try:
+            df = pd.read_csv(RAW_INPUTS_FILE, encoding='utf-8')
+        except UnicodeDecodeError:
+            print("UTF-8 decoding failed, trying latin-1 encoding...")
+            df = pd.read_csv(RAW_INPUTS_FILE, encoding='latin-1')
         
         # Clean up any potential empty columns from trailing commas
         df = df.dropna(how='all', axis=1)
@@ -49,7 +53,7 @@ def transform_raw_inputs():
                     if t:
                         transformed_rows.append({
                             'issue_area': area,
-                            'issue_subtopic': subtopic,
+                            # 'issue_subtopic': subtopic,
                             'topic': subtopic, # Mapping subtopic as the main topic key
                             'term': t,
                             'type': term_type
@@ -63,7 +67,7 @@ def transform_raw_inputs():
         # Create DataFrame and save
         out_df = pd.DataFrame(transformed_rows)
         # Ensure consistent column order
-        cols = ['issue_area', 'issue_subtopic', 'topic', 'term', 'type']
+        cols = ['issue_area', 'topic', 'term', 'type']
         out_df = out_df[cols]
         
         out_df.to_csv(INTERMEDIATE_CSV, index=False)
@@ -100,7 +104,7 @@ def generate_topics_json():
                 topics_dict[topic_label] = {
                     "label": topic_label,
                     "issue_area": issue_area,
-                    "issue_subtopic": row.get('issue_subtopic', 'Unknown'),
+                    "issue_subtopic": row.get('topic', 'Unknown'),
                     "patterns": [],
                     "anchors": [],
                     "exclusions": []
@@ -128,16 +132,21 @@ def generate_topics_json():
     except Exception as e:
         print(f"Error during JSON generation: {e}")
 
-def generate_all():
+def generate_all(from_raw: bool): # from_raw argument will determine whether to generate topics.json from raw or intermediate csv inputs
     """
     Orchestrates the full generation pipeline:
     1. Raw Inputs -> Intermediate CSV
     2. Intermediate CSV -> Topics JSON
     """
-    if transform_raw_inputs():
-        generate_topics_json()
+    if from_raw:
+        if transform_raw_inputs():
+            generate_topics_json()
+        else:
+            print("Skipping JSON generation due to transformation failure.")
+
     else:
-        print("Skipping JSON generation due to transformation failure.")
+        print("Skipping raw parsing, reading from intermmediate inputs file.")
+        generate_topics_json()
 
 if __name__ == "__main__":
     generate_all()
