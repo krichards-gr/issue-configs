@@ -2,6 +2,7 @@ import os
 import argparse
 from datetime import datetime
 from setup_utils import ensure_setup
+from generate_topics import generate_all
 
 # Ensure environment is ready before importing heavy dependencies
 ensure_setup()
