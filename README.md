@@ -1,6 +1,6 @@
 # Issue Definitions Configuration Framework
 
-A local toolkit for defining, compiling, and applying ESG/issue topic labels to text data using keyword patterns, semantic anchors, and exclusionary filters.
+A local toolkit for defining, compiling, and applying issue topic labels to text data using keyword patterns, semantic anchors, and exclusionary filters.
 
 ---
 
@@ -34,15 +34,6 @@ python generate_topics.py --from_raw
 
 ---
 
-### Verify your topic definitions are working
-
-Run a quick smoke test against a set of hardcoded sample texts:
-
-```bash
-python local_analysis.py
-```
-
----
 
 ## How It Works
 
