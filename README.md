@@ -1,67 +1,169 @@
 # Issue Definitions Configuration Framework
 
-This repository provides a standalone framework for defining, generating, and applying "Issue Topics" using professional NLP tools. It is designed to exactly mirror the process used in the `earnings-call-transcript-analysis` production pipeline.
+A local toolkit for defining, compiling, and applying ESG/issue topic labels to text data using keyword patterns, semantic anchors, and exclusionary filters.
 
-## 🏗️ How it Works
+---
 
-The system follows a professional "Source → Transform → Apply" workflow:
+## Quickstart
 
-```mermaid
-graph LR
-    RAW["📄 issue_config_inputs_raw.csv<br/>(Human Friendly)"] -- "generate_topics.py" --> INT["📄 updated_issue_config_inputs.csv<br/>(Long Format)"]
-    INT -- "generate_topics.py" --> JSON["📦 topics.json<br/>(Structured Config)"]
-    JSON -- "local_analysis.py" --> Result["🔍 NLP Analysis Result"]
-    
-    subgraph "Topic Generation Process"
-    RAW
-    INT
-    JSON
-    end
-    
-    subgraph "Verification"
-    Result
-    end
-```
+### Label a file right now
 
-## 📂 Folder Contents
-
-- **`issue_config_inputs_raw.csv`**: The primary source of truth. Define topics, patterns, exclusions, and anchors in a human-friendly format (semicolon separated).
-- **`generate_topics.py`**: A two-step generator that:
-    1. Transforms raw inputs into an intermediate long-format CSV.
-    2. Converts the intermediate CSV into the final `topics.json` configuration.
-- **`label_files.py`**: **NEW Interactive CLI Tool**. Point it at any CSV or XLSX file, pick a column, and it will apply the detection logic and save a labeled version to the `outputs` folder.
-- **`analyzer.py`**: A modular class housing the core detection logic. Used by all analysis scripts.
-- **`local_analysis.py`**: A demonstration script that verifies the `analyzer.py` logic against hardcoded sample texts.
-- **`download_models.py`**: Utility to ensure all required NLP models are downloaded and ready for use.
-- **`test_local_pipeline.py`**: A wrapper to verify the entire pipeline from generation to analysis.
-
-## 🚀 Getting Started
-
-The local tools are now **self-healing**. Simply running a command will automatically check for and install missing dependencies or AI models.
-
-### 1. Label your local files (CLI)
-You can process any data file immediately:
 ```bash
 python label_files.py my_data.csv
 ```
-*(On the first run, it will automatically download the 80MB+ AI model and install dependencies.)*
 
-### 2. Run the Analysis Demo
-Test the core logic against sample strings:
+You'll be prompted to select which column contains the text to analyze. Results are saved to `outputs/`.
+
+> **First run only:** Dependencies and NLP models (~80MB) are downloaded automatically.
+
+---
+
+### Updated your topic definitions? Recompile first.
+
+If you've edited `issue_config_inputs_raw.csv`, pass `--from_raw` to regenerate the compiled config before labeling:
+
+```bash
+python label_files.py my_data.csv --from_raw
+```
+
+Or regenerate the config on its own (without labeling anything):
+
+```bash
+python generate_topics.py --from_raw
+```
+
+---
+
+### Verify your topic definitions are working
+
+Run a quick smoke test against a set of hardcoded sample texts:
+
 ```bash
 python local_analysis.py
 ```
 
-### 3. Generate your Configuration (Manual)
-If you update `issue_config_inputs_raw.csv`, regenerate the config:
-```bash
-python generate_topics.py
+---
+
+## How It Works
+
+The system follows a **Source → Compile → Apply** pipeline:
+
+```
+issue_config_inputs_raw.csv   ←── Edit this to define topics
+         │
+         │  (--from_raw)
+         ▼
+updated_issue_config_inputs.csv   ←── Intermediate long-format CSV
+         │
+         ▼
+      topics.json   ←── Compiled config used by the analyzer
+         │
+         ▼
+    label_files.py   ──► outputs/your_file_topic_labeled_YYYYMMDD.csv
 ```
 
-## 🛠️ Data Structure & Logic
+When you run without `--from_raw`, the pipeline **skips the first step** and reads directly from the intermediate CSV. This is faster and appropriate when you haven't changed the raw inputs.
 
-| Feature | Type | Logic |
+---
+
+## Repository Layout
+
+```
+issue-configs/
+│
+├── issue_config_inputs_raw.csv      # SOURCE OF TRUTH — edit topics here
+├── updated_issue_config_inputs.csv  # Intermediate CSV (auto-generated)
+├── topics.json                      # Compiled NLP config (auto-generated)
+│
+├── label_files.py       # CLI tool: label any CSV or XLSX file
+├── generate_topics.py   # CLI tool: compile topics.json from CSV inputs
+├── analyzer.py          # Core detection engine (used by all scripts)
+├── setup_utils.py       # Auto-installer for dependencies and models
+├── local_analysis.py    # Smoke test: run detector against sample texts
+│
+├── test_data.csv        # Sample data for testing
+├── requirements.txt     # Python dependencies
+│
+└── (Production / Cloud Run)
+    ├── analysis.py       # Cloud Run pipeline (BigQuery → enriched output)
+    ├── Dockerfile        # Container definition
+    └── cloudbuild.yaml   # GCP CI/CD build configuration
+```
+
+---
+
+## Defining Topics (`issue_config_inputs_raw.csv`)
+
+Each row defines one **issue subtopic**. Columns:
+
+| Column | Description |
+| :--- | :--- |
+| `issue_area` | Broad category (e.g. `Climate Change & ESG`) |
+| `issue_subtopic` | Specific topic label (e.g. `Climate Change`) |
+| `pattern` | Semicolon-separated keywords/phrases for exact matching |
+| `exclusionary_term` | Semicolon-separated terms that disqualify a match |
+| `anchor_phrases` | Semicolon-separated phrases for semantic similarity fallback |
+
+**Example row:**
+```
+issue_area: Climate Change & ESG
+issue_subtopic: Climate Change
+pattern: climate change;#climatechange;net zero;carbon emissions
+exclusionary_term: surgery
+anchor_phrases: environmental impact;emissions reduction
+```
+
+### How matching works
+
+| Method | Input column | Logic |
 | :--- | :--- | :--- |
-| **Patterns** | `pattern` | Processed into **spaCy** patterns for 100% accurate keyword matching. |
-| **Anchors** | `anchor term` | Converted to **Vector Embeddings** for semantic similarity matching (Default: 0.7 threshold). |
-| **Exclusions** | `exclusionary term` | **Negative Filter**: If found in text, the topic label is discarded to reduce noise. |
+| **Exact match** | `pattern` | spaCy token matcher — fast and precise |
+| **Semantic fallback** | `anchor_phrases` | Cosine similarity via SentenceTransformer (threshold: 0.7) |
+| **Exclusion filter** | `exclusionary_term` | If found in text, the topic label is dropped |
+
+Multi-word patterns (e.g. `climate change`) are matched as token sequences, not substrings.
+
+---
+
+## CLI Reference
+
+### `label_files.py` — Label a file
+
+```
+python label_files.py <input_file> [--column COLUMN] [--from_raw]
+
+Arguments:
+  input_file          Path to a .csv or .xlsx file to label
+
+Options:
+  --column COLUMN     Name of the column containing text to analyze.
+                      If omitted, you will be prompted to choose interactively.
+  --from_raw          Re-read issue_config_inputs_raw.csv and regenerate
+                      updated_issue_config_inputs.csv and topics.json before
+                      labeling. Use this whenever you have edited the raw inputs.
+```
+
+**Output columns added:**
+- `issue_subtopics` — detected topic labels, semicolon-separated
+- `issue_areas` — corresponding issue area labels, semicolon-separated
+
+---
+
+### `generate_topics.py` — Compile config only
+
+```
+python generate_topics.py [--from_raw]
+
+Options:
+  --from_raw    Re-read issue_config_inputs_raw.csv and regenerate the
+                intermediate CSV before compiling topics.json.
+                Without this flag, compiles from the existing intermediate CSV.
+```
+
+---
+
+## Production Notes
+
+`analysis.py` is the Cloud Run production pipeline. It reads earnings call transcripts from BigQuery, applies topic detection via `IssueAnalyzer`, and writes enriched results back to BigQuery. It is **not** intended for local use.
+
+`Dockerfile` and `cloudbuild.yaml` handle container builds and GCP deployment — see those files for configuration details.

@@ -1,2 +1,3 @@
-outputs/test_data_topic_labeled_20260220.csv
 outputs/
+__pycache__/
+*.pyc
