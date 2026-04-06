@@ -32,7 +32,7 @@ def ensure_setup(from_raw=False, nlp_model="en_core_web_sm", embedding_model="al
     print("=== Environment Check ===")
 
     # --- 1. Python package dependencies ---
-    required_libs = ["pandas", "spacy", "sentence_transformers", "torch", "transformers", "openpyxl"]
+    required_libs = ["pandas", "spacy", "spaczz", "sentence_transformers", "torch", "transformers", "openpyxl"]
     missing_libs = [
         lib for lib in required_libs
         if not _is_importable(lib.replace("-", "_"))

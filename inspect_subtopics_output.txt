@@ -1,0 +1,36 @@
+Available sheets: ['logic', 'dataset_info', 'subtopic_terms']
+
+
+--- SHEET: logic ---
+Columns: ['Order', 'Action']
+First 2 rows:
+[
+  {
+    "Order": 0,
+    "Action": "Determine Issue Area by checking for dataset terms. This includes issue area sub-logic like checking for term colocations and exclusionary terms"
+  },
+  {
+    "Order": 1,
+    "Action": "Determine missing Issue Areas by checking for dataset anchor terms"
+  }
+]
+
+--- SHEET: subtopic_terms ---
+Columns: ['Issue Area', 'Subtopics', 'pattern', 'exclusionary_term', 'anchor_phrases']
+First 2 rows:
+[
+  {
+    "Issue Area": "AI",
+    "Subtopics": "Equity",
+    "pattern": "hatespeech;#hatespeech;online harassment;#onlineharassment;racist slurs;#racistslurs;AI bias;#AIbias;biased alogrithms;#biasedalgorithms;facial recognition;#facialrecognition;predictive policing;#predictivepolicing;biometric data;#biometricdata",
+    "exclusionary_term": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "AI",
+    "Subtopics": "Liability",
+    "pattern": "Section 230;#section230;cybercrimes;#cybercrimes;algorithmic decisions;#algorithmicdecisions;notice-and-choice;#noticeandchoice;opt-out;#opt-out;GDPR;#GDPR;Liability;#liability",
+    "exclusionary_term": NaN,
+    "anchor_phrases": NaN
+  }
+]

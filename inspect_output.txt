@@ -1,0 +1,190 @@
+--- COLUMNS ---
+'Issue Area'
+'Dataset'
+'New Dataset Name (if changing)'
+'Tag Group'
+'pattern'
+'colocated_pattern_1a'
+'colocated_pattern_1b'
+'colocated_pattern_2a'
+'colocated_pattern_2b'
+'colocated_pattern_3a'
+'colocated_pattern_3b'
+'exclusionary_term'
+'exclusionary_term_colocated_1a'
+'exclusionary_term_colocated_2a'
+'anchor_phrases'
+
+--- SAMPLE DATA ---
+[
+  {
+    "Issue Area": "AI",
+    "Dataset": "AI",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "AI",
+    "pattern": "generative AI;#generativeAI;chatbot;#chatbot;large language models;#largelanguagemodels;natural language processing;#NLP;ChatGPT;#ChatGPT;Google Bard;#GoogleBard;OpenAI;#OpenAI;Amazon Lex;#AmazonLex;Microsoft Azure;#MicrosoftAzure;DeepMind;#DeepMind;data privacy;#dataprivacy;personal data;#personaldata;kids online safety;#kidsonlinesafety;geolocation;#geolocation;geopositioning;#geopositioning;privacy disclosures;#privacydisclosures;adtech;#adtech;advertisement technology;#advertisementtechnology;addictive content;#addictivecontent;REAL Political Ads Act;#REALPoliticalAdsAct;facial recognition;#facialrecognition;predictive policing;#predictivepolicing;biometric data;#biometricdata;section230;#section230;cybercrimes;#cybercrimes;automated decisions;#automateddecisions;algorithmic decisions;#algorithmicdecisions;notice-and-choice;#noticeandchoice;opt-out;#optout;GDPR;#GDPR;mass surveillance;#masssurveillance;artificial intelligence;#artificialintelligence;fake profiles;#fakeprofiles;biasedalgorithms;#biasedalgorithms;algorithmic bias;#algorithmicbias;deepfakes;#deepfakes;online child safety;#onlinechildsafety;online free speech;#onlinefreespeech;content moderation;#contentmoderation;cybersecurity;#cybersecurity;EU right to erasure;#EUrightoerasure;online misinformation;#onlinemisinformation;child privacy;#childprivacy;#DeepSeek;deep seek;automation;#automation;data breach;#databreach;misinformation;#misinformation;disinformation;#disinformation;deepfake;#deepfake;minor protection;#minorprotection;AI regulation;#AIregulation;AI investment;#AIinvestment;data center;#datacenter;hallucination;#hallucination;CSAM;#CSAM",
+    "colocated_pattern_1a": "generative AI;#generativeAI;chatbot;#chatbot;large language models;#largelanguagemodels;LLMs;#LLMs;automation;AI regulation",
+    "colocated_pattern_1b": "supply chain;job displacement;upskilling;national security;defense investment;antitrust;digital advertising;M&A;merger and aquisition;alternative media;workforce adoption",
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Alcohol",
+    "Dataset": "Alcohol",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Alcohol",
+    "pattern": "alcohol-related harms;barley farming;#alcoholrelatedharms;alcohol labeling;#alcohollabeling;#alcoholadvertising;alcohol advertising;Tim Stockwell;alcohol marketing;beer labels;alcohol labels;alcohol ads;beer ads;Federal Alcohol Administration Act;Dietary Guidelines;Alcohol-related risks;Risks of alcohol;Dangers of alcohol;Alcohol industry;No safe level;No safe amount;Alcoholic beverage industry;alcohol guidelines;#alcoholguidelines;drinking guidelines;alcohol rules;recommended consumption;recommended alcohol limits;CDC alcohol guidelines;WHO alcohol recommendations;unit alcohol guidelines;alcohol moderation guidelines;Tax on alcohol;alcohol exise tax;alcohol tax increase;alcohol duty;alcohol pricing policy;alcohol tax reform;alcohol excise rates;alcohol price intervention;alcohol tax revenue;sober curious;#sobercurious;Dry January;#DryJanuary;alcohol free;sober movement;sober lifestyle;#soberlifestyle;#SoberCurious;alcohol free challenge;Sober October;#SoberOctober;temporary sobriety;#SoberLife;alcohol free lifestyle;drinking culture shift;sobriety curious;alcohol limits;low risk drinking;alcohol intake;abstain from alcohol;moderate drinking;sustainable beer production;brewery waste;Brewery wastewater;water shortages;Colorado River negotiations;bar owner support;support for bar owners;support for bars;financial assistance for bar owners;financial assistance for bars;subsidies for beer distributors;federal support for bar owners;subsidies for alcohol distributors;tax cuts for alcohol distributors;tax cuts for beer distributors;beer distributor support;financial assistance for beer distributors;alcohol distributor support;financial assistance for alcohol distributors;alcohol hops;hops farming;hops growing;National Barley Growers Association;American Malting Barley Association;sustainably produced beer;Hops farmers;barley farmers;barley production;hops production;bisphonol a;beer bottle plastic;BPA;BPAs;Plastic in beer cans;Plastic in beer bottles;beer bottle packaging;plastics treaty;plastic packaging;Zero-for-zero tariffs;Canadian boycott;province boycott;Price of wine;Price of spirits;Price of beer;alcohol tariff;Gen Z drinkers;Gen Z consumption;Toasts not tariffs",
+    "colocated_pattern_1a": "microplastics;PFAS;plastic consumption;plastics;PFAS-free;BPA;BPA-free;BPAs",
+    "colocated_pattern_1b": "beer bottles;beer;beer cans",
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Animal Welfare",
+    "Dataset": "Animal Welfare",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Animal Welfare",
+    "pattern": "animal welfare;farmed animal;poultry welfare;chicken welfare;chicken supply chain;Farm carbon footprints;Animal testing;Animal vaccines;animal confinement;broiler chicken;end the cage;Pork housing;Sow housing;Cage-free hens;caged hens;Ohio Livestock Care Standards;crate-free pork;No Antibiotics Ever;Gestation crate free pork;gestation crates;gestation crate;Chicken meat supply;cage free eggs;cage free hens;Veterinary clinics;veterinary Telemedicine;US Livestock policy;animal antibiotics;CA Prop 12;Farm Bill;\u201cFrankenchicken\u201d;animal safety;animal testing;farmed animals;factory farm;higher-welfare farming;livestock farming;broiler chicken welfare;European Chicken Commitment;canned chicken;Litter management;alternatives to animal testing;retired lab animals;lab animals;nonanimal models;animal studies;White Coat Waste;solitary confinement;egg industry;pork industry;chicken industry;dairy industry;depopulation;Animal Equality;animal health;#animaltesting;animal cruelty;#animalcruelty;cage-free;#cagefree;cruelty-free;#crueltyfree;#animalwelfare;foot-and-mouth disease;#FMD;MSG;#MSG;growth hormones;#growthhormones;purpose-bred;#purposebred;animal welfare act;#animalwelfareact;clinical trials;#clinicaltrials;Cruelty-Free Cosmetics Act;animal research;animal experimentation;online vet care;veterinary telehealth;zoonosis;animal diseases;infectious diseases in animals;animal infectious diseases;poultry diseases;veterinary medicine;animal rights;pork housing;sow housing;sow;better chicken commitment;free-range;cage-free eggs;humane society;2026 European Chicken Commitment;chicken welfare commitments;improved animal welfare;broiler welfare;free range eggs;free range hens;free range chickens;free range",
+    "colocated_pattern_1a": "PETA;veterinarians;veterinary technology",
+    "colocated_pattern_1b": "animal welfare;animal health",
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": "Veterinary Jobs - AVMA Career Center;Veterinary Jobs;AMVA Career Center",
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Climate Change & Sustainability",
+    "Dataset": "Climate Change",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Climate Change",
+    "pattern": "clean energy;#cleanenergy;fossil fuels;#fossilfuels;natural disaster;#naturaldisaster;natural disasters;#naturaldisasters;net zero;#netzero;climate justice;#climatejustice;ESG;#esg;anti-esg;antiesg;#anti-esg;#antiesg;cap-and-trade;#cap-and-trade;cap and trade;#capandtrade;carbon credits;#carboncredits;carbon offsets;#carbonoffsets;green bonds;#greenbonds;CSDDD;#CSDDD;EUDR;#EUDR;SBTi;#SBTi;science based targets;#sciencebasedtargets;super fund law;#superfundlaw;community-based catastrophe insurance;#community-basedcatastropheinsurance;plastic;#plastic;plasticulture;#plasticulture;carbon offset;#carbonoffset;divestment;#divestment;fossil fuel financing;#fossilfuelfinancing;fiduciary duty;#fiduciaryduty;Climate Corporate Data Accountability Act;SB 253;SB 261;RimbaRaya;endangerment finding;emissions disclosure;climate disclosure;Petersberg Climate Dialogue;Nationally Determined Contributions;NDCs;water stewardship;#deforestation;deforestation;#waterstewardship;plastic pollution;PFAS;#PFAS;EtO;corporate responsibility;environmental pollution;plastic supply chain;plastic waste;plastic recycling;sustainable agriculture;regenerative agriculture;CSD3;CSRD;#CSRD",
+    "colocated_pattern_1a": NaN,
+    "colocated_pattern_1b": NaN,
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": "plastic surgery;#plasticsurgery;financial results",
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Crime & Safety",
+    "Dataset": "Crime & Safety",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Crime and Safety",
+    "pattern": "criminal justice reform;prison reform;political violence;political extremism;police brutality;police violence;police killings;employee safety;employee data privacy;consumer data privacy;financial crime;white-collar crime;blue-collar crime;crime wave;crime surge;tough on crime;fbi crime data;#toughoncrime;return fraud;retail crime;retail theft;organized retail theft;organized retail crime;#fightretailcrime;#fightretailcrimeday;gun control;gun rights;gun buyback;NRA;national rifle association;red flag orders;#guncontrol;extreme risk protection orders",
+    "colocated_pattern_1a": "boycott;protesters;boycotts;protest;protests",
+    "colocated_pattern_1b": "violent;looter;looting;storefront",
+    "colocated_pattern_2a": "firearms;firearm",
+    "colocated_pattern_2b": "MCC codes;MCC code;de-banking;debanking",
+    "colocated_pattern_3a": "mass shooting;mass shootings;school shooting;school shootings",
+    "colocated_pattern_3b": "assault weapon;#assaultweapon;assault weapons",
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Elections & Voting Rights",
+    "Dataset": "2024 Election",
+    "New Dataset Name (if changing)": "2026 Midterms",
+    "Tag Group": "Election Integrity and Voting Rights",
+    "pattern": "2024 Election;Voting Rights;Election Fraud;Election Integrity;Political Violence;Free And Fair Elections;Gerrymandering;RNC;DNC;Republican National Convention;Democratic National Convention;Corporate Sponsors;Campaign Donations;PAC Giving;PAC donations;RNC Corporate Attendees;DNC Corporate Attendees;Campaign Rhetoric;Campaign Event;Election Violence;Voter Intimidation;Trump Trial;Trump Protest;Election Denial;North Carolina Election;Georgia Election;Arizona Election;Pennsylvania Election;Michigan Election;Wisconsin Election;Election AND Abortion;Election AND Immigration;Election AND Crime;Election AND Healthcare;Ohio Election;Montana Election;Nevada Election;Hew Hampshire Election;Abortion Ballot",
+    "colocated_pattern_1a": NaN,
+    "colocated_pattern_1b": NaN,
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Financial Sector Risks",
+    "Dataset": "Financial Sector Risks CF",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Finance Risks (?)",
+    "pattern": "fiduciary;fraud;wealth gap;collusion;bank failure;bank collapse",
+    "colocated_pattern_1a": "crypto;cryptocurrency;digital asset;alternative asset;blockchain",
+    "colocated_pattern_1b": "regulation;legislation;lobby;lobbying;politicized;politicised;fraud",
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": "earnings report;quarterly earnings;annual report;memecoin;meme coin;meme stock",
+    "exclusionary_term_colocated_2a": "seekingalpha.com;fool.com;investing.com;morningstar.com;marketwatch.com;thestreet.com;stockcharts.com;stockrover.com;grok.com",
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Gender Equity",
+    "Dataset": "Gender Equity",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Gender Equity",
+    "pattern": "workplace harassment;#workplaceharassment;gender parity;#genderparity;gender quota;#genderquota;female representation;#femalerepressentation;female leadership;#femaleleadership;gender equity;#genderequity;board equity;#boardequity;maternity leave;#maternityleave;paternity leave;#paternityleave;parental leave;#parentalleave;EEOC lawsuit;#EEOClawsuit;child care access;gender pay equity;gender pay gap;pay transparency;#paytransparency;wage gap;#wagegap;pay disclosure;sex discrimination;childcare access;caregivers;return-to-office;RTO mandates;workplace flexibility;childcare affordability;family leave;paid leave;women in tech;women employees",
+    "colocated_pattern_1a": "sexual harrassment;sex discrimination;sexual abuse",
+    "colocated_pattern_1b": "workplace;job;work;employer;employee",
+    "colocated_pattern_2a": "DEI;diversity equity and inclusion;inclusion and belonging",
+    "colocated_pattern_2b": "women;gender equity;gender parity;corporate gender representation;female employees;women employees;women employee resource group;women leadership program;women in business",
+    "colocated_pattern_3a": "sexual harrassment;gender;sex discrimination;women;female employee;women employees",
+    "colocated_pattern_3b": "EEOC complaint;EEOC suit;EEOC lawsuit",
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "Health Care Access",
+    "Dataset": "Health",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "Health",
+    "pattern": "anti-vaxx;#antivaxx;COVID misinformation;#COVIDmisinformation;drug pricing;#drugpricing;health access;#healthaccess;health disparities;#healthdisparities;health equity;#healthequity;health misinformation;#healthmisinformation;mask mandate;#maskmandate;mask mandates;#maskmandates;mental health;#mentalhealth;minority health;#minorityhealth;smoking cessation;#smokingcessation;social determinants of health;#socialdeterminantsofhealth;suicide prevention;#suicideprevention;tobacco;#tobacco;vaccine hesitancy;#vaccinehesitancy;vaccine mandate;#vaccinemandate;vaccine mandates;#vaccinemandates;veterans health;#veteranshealth;veterans mental health;#veteransmentalhealth;physician burnout;#physicianburnout;homelessness;#homelessness;behavioral health;#behavioralhealth;mental illness;#mentalillness;great resignation;#greatresignation;youth mental health;#youthmentalhealth;anxiety;#anxiety;gun violence;#gunviolence;gun control;#guncontrol;merchant category code;#merchantcategorycode;gun sale;#gunsale;Medical Debt;#Medicaldebt;Charity Care;#charitycare;Fair Debt Collection Practices Act;#FairDebtCollectionPracticesAct;No Surprises Act;#NoSurprisesAct;Fair Credit Reporting Act;#faircreditreportingact;nonprofit hospitals;#nonprofithospitals;Non-profit hospitals;#non-profithospitals;community health needs assessment;#communityhealthneedsassessment;26 C.F.R. \u00a71.501(r);Extraordinary Collection Action;#extraordinarycollectionaction;Extraordinary Collection;#extraordinarycollection;501(R);#501(R);Wells Fargo Health Advantage;#wellsfargohealthadvantage;Health advantage;#healthadvantage;Synchrony CareCredit;#synchronycarecredit;carecredit;#carecredit;IRA;Inflation Reduction Act;Drug negotiation;Drug Price negotiation;IRA negotiation;PBMs;PBM;Pharmacy Benefit Manager;340B;Contract Pharmacies;prescription drug pricing;#PBMs;#PBM;#drug price negotiation;Medicare drug negotiation;#medicare drug negotiation;#Pharmacy Benefit Managers;#340B;compounding;GLP-1;D2C;patent thicket;patent thickets;#GLP-1;#patent thickets;Maximum Fair Price;Most Favored Nations;spread pricing;#spread pricing",
+    "colocated_pattern_1a": "depression;#depression",
+    "colocated_pattern_1b": "mental health;#mentalhealth;telehealth;#telehealth;mental illness;#mentalillness;anxiety;#anxiety;behavioralhealth;#behavioralhealth;#prescription;prescription",
+    "colocated_pattern_2a": NaN,
+    "colocated_pattern_2b": NaN,
+    "colocated_pattern_3a": NaN,
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": NaN,
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  },
+  {
+    "Issue Area": "International Reputational Risk",
+    "Dataset": "NEW International Reputational Risks",
+    "New Dataset Name (if changing)": NaN,
+    "Tag Group": "New International Reputational Risk",
+    "pattern": "#housecommitteeonchina;House Select Committee on China;uyghurlabor;#uyghurlabor;#sweatshops;sweatshops;supply chain violations;#supplychainviolations;international labor;#internationallabor;international business in russia;tech human rights violations;House Select Committee on the CCP;#CCPcommittee;Uyghur Forced Labor Prevention Act;#Uyghurforcedlaborpreventionact;#UFLPA;UFLPA;#myanmarlabor;unethical mining;cocoa child labor;trade war;international manufacturing;international factory relocation;global capacity center;global capability center;global fulfillment center;venezuela oil;venezuela market;anti-american sentiment;boycott american products;boycott U.S. products;boycott U.S. companies;iran investments;re-entry into russia;BIOSECURE Act;factory relocation;offshoring;U.S. nearshoring;cobalt mining;cobalt mining in the DRC;DRC cobalt mining;China surveilance;Russia market entry;US big tech surveillance;venezuela investment;US companies in Russia;new capacity center;international capacity expansion;IEEPA;pharmaceutical trade deal;cyberattacks;global supply chain risks;supply chain risk analysis;Torture Victim Protection Act;Eject Elbit;India manufacturing;India trade deal;boycott american brands;Swadeshi;Buy Canadian movement;#buycanadian;EU Pay Transparency Directive;data center expansion;international AI infrastructure;global AI;global AI dominance;boycotting american brands;boycotting american companies;boycotting U.S. companies",
+    "colocated_pattern_1a": "china;#china;taiwan strait;south china sea;people's republic of china;chinese community party;PRC;CCP;china business;US-China relations",
+    "colocated_pattern_1b": "decoupling;US business;US dependence;#USdependence;US national security threat;#nationalsecuritythreat;#mineralsourcing;tariffs;uyghur forced labor;uyghur labor;technology decoupling;semiconductors;sanctions digital infrastructure;cyber attacks;biosecurity;election interference;biosecure;national security law;foreign company;investor concern;Nvidia chips;BIOSECURE Act;corporate reputation;surveillance human rights;human rights violations;labor rights;supply chain;U.S. investor confidence;US-China Business Council;biotechnology outbound investments;GAIN AI Act;NDAA;National Defense Authorization Act;critical minerals;US-China soybean deal;Golden Shield",
+    "colocated_pattern_2a": "Israel;Gaza;Russia;Ukraine;Putin;Zelensky;Hamas;Hezbollah;Iran;DRC;Democratic republic of the congo;Sudan;Venezuela;Canada;Mexico;USCMA",
+    "colocated_pattern_2b": "global business;BDS;US business;boycott;corporate ties;divest;corporate investment;sanctioned company;surveillance;surveillance technology;corporate ethics;employee concerns;employee rights;religious diversity;free speech;labor abuses;freedom of speech;religious discrimination;corporate investments;company expansion;company investment;american brands;anti-american sentiment;US company;US corporations;US investment;international human rights;US corporate accountability;Dodd-Frank Act;conflict minerals;human rights investigation;geopolitical risk;defense technology;investor sentiment",
+    "colocated_pattern_3a": "CEO statement;corporate press release;company press release;CEO comments;CFO statement;company leader statement;company engagement;CEO remarks;CEO;internal memo;employee memo",
+    "colocated_pattern_3b": NaN,
+    "exclusionary_term": "Venezuela;Israel;Hamas;President Trump;Trump;American foreign policy;offshoring;nearshoring;US manufacturing;international capacity center;global capacity center;global capability center",
+    "exclusionary_term_colocated_1a": NaN,
+    "exclusionary_term_colocated_2a": NaN,
+    "anchor_phrases": NaN
+  }
+]
